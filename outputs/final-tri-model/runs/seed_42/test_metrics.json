@@ -1,0 +1,113 @@
+{
+  "checkpoint_sha256": "fe08e1515679b89445bd7806660bd1e687d5f5cc93d6b7669c0dc0abf9f64b9a",
+  "created_at": "2026-07-27T03:04:04.915139+00:00",
+  "genre_count": 19,
+  "genre_metrics": [
+    {
+      "average_precision": 0.6854724343960241,
+      "genre": "Action",
+      "positive_count": 326
+    },
+    {
+      "average_precision": 0.40566084155367615,
+      "genre": "Adventure",
+      "positive_count": 173
+    },
+    {
+      "average_precision": 0.7811424533397948,
+      "genre": "Comedy",
+      "positive_count": 485
+    },
+    {
+      "average_precision": 0.41298271696847144,
+      "genre": "Drama",
+      "positive_count": 203
+    },
+    {
+      "average_precision": 0.3696402120073877,
+      "genre": "Ecchi",
+      "positive_count": 81
+    },
+    {
+      "average_precision": 0.5402917069414364,
+      "genre": "Fantasy",
+      "positive_count": 271
+    },
+    {
+      "average_precision": 0.9673099867226964,
+      "genre": "Hentai",
+      "positive_count": 144
+    },
+    {
+      "average_precision": 0.19224014636997602,
+      "genre": "Horror",
+      "positive_count": 25
+    },
+    {
+      "average_precision": 0.4455150231997325,
+      "genre": "Mahou Shoujo",
+      "positive_count": 37
+    },
+    {
+      "average_precision": 0.6040946366150016,
+      "genre": "Mecha",
+      "positive_count": 65
+    },
+    {
+      "average_precision": 0.3266200614557926,
+      "genre": "Music",
+      "positive_count": 45
+    },
+    {
+      "average_precision": 0.2901351527416299,
+      "genre": "Mystery",
+      "positive_count": 57
+    },
+    {
+      "average_precision": 0.12694136478786397,
+      "genre": "Psychological",
+      "positive_count": 48
+    },
+    {
+      "average_precision": 0.45048204788648655,
+      "genre": "Romance",
+      "positive_count": 199
+    },
+    {
+      "average_precision": 0.5599755661539686,
+      "genre": "Sci-Fi",
+      "positive_count": 188
+    },
+    {
+      "average_precision": 0.5276019958125846,
+      "genre": "Slice of Life",
+      "positive_count": 219
+    },
+    {
+      "average_precision": 0.33086168936888666,
+      "genre": "Sports",
+      "positive_count": 53
+    },
+    {
+      "average_precision": 0.27067636620587243,
+      "genre": "Supernatural",
+      "positive_count": 122
+    },
+    {
+      "average_precision": 0.10380824134285857,
+      "genre": "Thriller",
+      "positive_count": 15
+    }
+  ],
+  "hamming_loss": 0.10648387248227616,
+  "mAP": 0.44165540230895484,
+  "macro_f1": 0.37140110391161746,
+  "model_id": "final-tri-model",
+  "prediction_sha256": "35e55cea62247d17cfd7e4068d788c33f26a3fc9a50b86c4086f8dfc7e07cc0d",
+  "row_count": 1121,
+  "samples_f1": 0.5229361281992861,
+  "seed": 42,
+  "series_group_count": 677,
+  "split": "test",
+  "threshold": 0.5
+}

@@ -1,0 +1,229 @@
+split,model_id,seed,genre,positive_count,average_precision
+validation,baseline,42,Action,305,0.520112034279093
+validation,baseline,42,Adventure,175,0.291241636178179
+validation,baseline,42,Comedy,487,0.6745476110960317
+validation,baseline,42,Drama,222,0.3305033062582891
+validation,baseline,42,Ecchi,80,0.1964283231166421
+validation,baseline,42,Fantasy,274,0.3976777005948114
+validation,baseline,42,Hentai,137,0.8317279181495878
+validation,baseline,42,Horror,39,0.1223497692515112
+validation,baseline,42,Mahou Shoujo,22,0.0599202560467027
+validation,baseline,42,Mecha,49,0.2732122467500484
+validation,baseline,42,Music,58,0.1427129783243846
+validation,baseline,42,Mystery,70,0.1454628514277586
+validation,baseline,42,Psychological,54,0.1448527634275569
+validation,baseline,42,Romance,167,0.2696541870535223
+validation,baseline,42,Sci-Fi,157,0.2791493747734478
+validation,baseline,42,Slice of Life,195,0.3804042817934094
+validation,baseline,42,Sports,61,0.1842238746569288
+validation,baseline,42,Supernatural,133,0.165304992728693
+validation,baseline,42,Thriller,18,0.0368634851628212
+validation,baseline,43,Action,305,0.5406574575016747
+validation,baseline,43,Adventure,175,0.3257583869212996
+validation,baseline,43,Comedy,487,0.6879372669544275
+validation,baseline,43,Drama,222,0.3015996473858012
+validation,baseline,43,Ecchi,80,0.1277516960326174
+validation,baseline,43,Fantasy,274,0.4012055419811925
+validation,baseline,43,Hentai,137,0.8279192153176219
+validation,baseline,43,Horror,39,0.1256897001662001
+validation,baseline,43,Mahou Shoujo,22,0.0772224855773343
+validation,baseline,43,Mecha,49,0.2617680214115673
+validation,baseline,43,Music,58,0.1346834945713528
+validation,baseline,43,Mystery,70,0.1765136858425662
+validation,baseline,43,Psychological,54,0.1470354659545601
+validation,baseline,43,Romance,167,0.2350285099874141
+validation,baseline,43,Sci-Fi,157,0.2939996897207514
+validation,baseline,43,Slice of Life,195,0.3021004923810662
+validation,baseline,43,Sports,61,0.1271058477591458
+validation,baseline,43,Supernatural,133,0.1986899753033693
+validation,baseline,43,Thriller,18,0.0421508605253566
+validation,baseline,44,Action,305,0.4968149822772985
+validation,baseline,44,Adventure,175,0.3008868075248476
+validation,baseline,44,Comedy,487,0.6351322807166091
+validation,baseline,44,Drama,222,0.327180073627537
+validation,baseline,44,Ecchi,80,0.1153084886659086
+validation,baseline,44,Fantasy,274,0.4392391683211239
+validation,baseline,44,Hentai,137,0.8549086146759136
+validation,baseline,44,Horror,39,0.1449425769771702
+validation,baseline,44,Mahou Shoujo,22,0.0615041848670593
+validation,baseline,44,Mecha,49,0.2360377960857207
+validation,baseline,44,Music,58,0.2221192089456414
+validation,baseline,44,Mystery,70,0.1698465450651055
+validation,baseline,44,Psychological,54,0.1248997488664566
+validation,baseline,44,Romance,167,0.2421579304691707
+validation,baseline,44,Sci-Fi,157,0.3196767345878838
+validation,baseline,44,Slice of Life,195,0.3191753002441855
+validation,baseline,44,Sports,61,0.2495994159736805
+validation,baseline,44,Supernatural,133,0.1927270676529421
+validation,baseline,44,Thriller,18,0.0328123690652571
+validation,final-tri-model,42,Action,305,0.6598297616594875
+validation,final-tri-model,42,Adventure,175,0.4414041377508044
+validation,final-tri-model,42,Comedy,487,0.7701792334554411
+validation,final-tri-model,42,Drama,222,0.43254974423982
+validation,final-tri-model,42,Ecchi,80,0.372009313242679
+validation,final-tri-model,42,Fantasy,274,0.5939461468163347
+validation,final-tri-model,42,Hentai,137,0.9442530310887596
+validation,final-tri-model,42,Horror,39,0.2511148437242576
+validation,final-tri-model,42,Mahou Shoujo,22,0.2108952375828287
+validation,final-tri-model,42,Mecha,49,0.7253495705805897
+validation,final-tri-model,42,Music,58,0.5106260206206523
+validation,final-tri-model,42,Mystery,70,0.2121129742162985
+validation,final-tri-model,42,Psychological,54,0.1644995186189988
+validation,final-tri-model,42,Romance,167,0.5191385173609605
+validation,final-tri-model,42,Sci-Fi,157,0.5009986634330799
+validation,final-tri-model,42,Slice of Life,195,0.514388181848727
+validation,final-tri-model,42,Sports,61,0.6901812424894401
+validation,final-tri-model,42,Supernatural,133,0.2697230248605876
+validation,final-tri-model,42,Thriller,18,0.0632164688974886
+validation,final-tri-model,43,Action,305,0.6755741340106962
+validation,final-tri-model,43,Adventure,175,0.4606241693077188
+validation,final-tri-model,43,Comedy,487,0.7886702701927861
+validation,final-tri-model,43,Drama,222,0.453269841505079
+validation,final-tri-model,43,Ecchi,80,0.345945862085768
+validation,final-tri-model,43,Fantasy,274,0.6174203576676881
+validation,final-tri-model,43,Hentai,137,0.9445275078099848
+validation,final-tri-model,43,Horror,39,0.1835755030629327
+validation,final-tri-model,43,Mahou Shoujo,22,0.2206821287467705
+validation,final-tri-model,43,Mecha,49,0.6988623526837635
+validation,final-tri-model,43,Music,58,0.4392738251715283
+validation,final-tri-model,43,Mystery,70,0.1862023078748792
+validation,final-tri-model,43,Psychological,54,0.1757276381391934
+validation,final-tri-model,43,Romance,167,0.5124930369298824
+validation,final-tri-model,43,Sci-Fi,157,0.521325346382889
+validation,final-tri-model,43,Slice of Life,195,0.4788838285663058
+validation,final-tri-model,43,Sports,61,0.6976438572353806
+validation,final-tri-model,43,Supernatural,133,0.2838711670619407
+validation,final-tri-model,43,Thriller,18,0.0810080968138192
+validation,final-tri-model,44,Action,305,0.6664990067383973
+validation,final-tri-model,44,Adventure,175,0.4838674651192136
+validation,final-tri-model,44,Comedy,487,0.7847835265398343
+validation,final-tri-model,44,Drama,222,0.4034547688116431
+validation,final-tri-model,44,Ecchi,80,0.4486071174506962
+validation,final-tri-model,44,Fantasy,274,0.6213247474023703
+validation,final-tri-model,44,Hentai,137,0.9518741618487188
+validation,final-tri-model,44,Horror,39,0.1664976323897457
+validation,final-tri-model,44,Mahou Shoujo,22,0.2185352334745308
+validation,final-tri-model,44,Mecha,49,0.7148577115859038
+validation,final-tri-model,44,Music,58,0.488448903453179
+validation,final-tri-model,44,Mystery,70,0.2547120475891629
+validation,final-tri-model,44,Psychological,54,0.1926621840089395
+validation,final-tri-model,44,Romance,167,0.5269628953424604
+validation,final-tri-model,44,Sci-Fi,157,0.5263415108797296
+validation,final-tri-model,44,Slice of Life,195,0.5048499021946873
+validation,final-tri-model,44,Sports,61,0.7294147956914262
+validation,final-tri-model,44,Supernatural,133,0.2748295353153656
+validation,final-tri-model,44,Thriller,18,0.075293226731769
+test,baseline,42,Action,326,0.582570613271179
+test,baseline,42,Adventure,173,0.2772949123129076
+test,baseline,42,Comedy,485,0.6974678796444462
+test,baseline,42,Drama,203,0.29044378830927353
+test,baseline,42,Ecchi,81,0.21468154968390632
+test,baseline,42,Fantasy,271,0.35982119056201856
+test,baseline,42,Hentai,144,0.8324680236999648
+test,baseline,42,Horror,25,0.1276020099101736
+test,baseline,42,Mahou Shoujo,37,0.2703494154537761
+test,baseline,42,Mecha,65,0.29334981666768617
+test,baseline,42,Music,45,0.09952340954449909
+test,baseline,42,Mystery,57,0.1431827222295073
+test,baseline,42,Psychological,48,0.11125631481624546
+test,baseline,42,Romance,199,0.32172500917198227
+test,baseline,42,Sci-Fi,188,0.3879370924674307
+test,baseline,42,Slice of Life,219,0.37888769637064723
+test,baseline,42,Sports,53,0.07288651235539417
+test,baseline,42,Supernatural,122,0.19439400154700018
+test,baseline,42,Thriller,15,0.06288660931064824
+test,baseline,43,Action,326,0.5710289409513373
+test,baseline,43,Adventure,173,0.2639846216091646
+test,baseline,43,Comedy,485,0.6829524638789248
+test,baseline,43,Drama,203,0.28791698311962205
+test,baseline,43,Ecchi,81,0.13412991790301454
+test,baseline,43,Fantasy,271,0.38020606212243735
+test,baseline,43,Hentai,144,0.8104867952050406
+test,baseline,43,Horror,25,0.1185632961899391
+test,baseline,43,Mahou Shoujo,37,0.2878941711884742
+test,baseline,43,Mecha,65,0.20173034275739748
+test,baseline,43,Music,45,0.09829176394521831
+test,baseline,43,Mystery,57,0.13285938187209737
+test,baseline,43,Psychological,48,0.12588693944892518
+test,baseline,43,Romance,199,0.3174765805853771
+test,baseline,43,Sci-Fi,188,0.34565247557853696
+test,baseline,43,Slice of Life,219,0.4409089704433422
+test,baseline,43,Sports,53,0.09122979637962492
+test,baseline,43,Supernatural,122,0.22431091094987823
+test,baseline,43,Thriller,15,0.043278400606545336
+test,baseline,44,Action,326,0.5724400394064808
+test,baseline,44,Adventure,173,0.26151337768808613
+test,baseline,44,Comedy,485,0.6494430311753452
+test,baseline,44,Drama,203,0.29136691353741867
+test,baseline,44,Ecchi,81,0.14848505599136266
+test,baseline,44,Fantasy,271,0.3969772255509968
+test,baseline,44,Hentai,144,0.8405040030053257
+test,baseline,44,Horror,25,0.10770879402251636
+test,baseline,44,Mahou Shoujo,37,0.23069211753658586
+test,baseline,44,Mecha,65,0.23054546834636142
+test,baseline,44,Music,45,0.08718942043870276
+test,baseline,44,Mystery,57,0.12841625457589673
+test,baseline,44,Psychological,48,0.13883642794874926
+test,baseline,44,Romance,199,0.30212661965592646
+test,baseline,44,Sci-Fi,188,0.40044226923112725
+test,baseline,44,Slice of Life,219,0.38870207246322686
+test,baseline,44,Sports,53,0.09150761872545138
+test,baseline,44,Supernatural,122,0.23736266580739218
+test,baseline,44,Thriller,15,0.08142356463032951
+test,final-tri-model,42,Action,326,0.6854724343960241
+test,final-tri-model,42,Adventure,173,0.40566084155367615
+test,final-tri-model,42,Comedy,485,0.7811424533397948
+test,final-tri-model,42,Drama,203,0.41298271696847144
+test,final-tri-model,42,Ecchi,81,0.3696402120073877
+test,final-tri-model,42,Fantasy,271,0.5402917069414364
+test,final-tri-model,42,Hentai,144,0.9673099867226964
+test,final-tri-model,42,Horror,25,0.19224014636997602
+test,final-tri-model,42,Mahou Shoujo,37,0.4455150231997325
+test,final-tri-model,42,Mecha,65,0.6040946366150016
+test,final-tri-model,42,Music,45,0.3266200614557926
+test,final-tri-model,42,Mystery,57,0.2901351527416299
+test,final-tri-model,42,Psychological,48,0.12694136478786397
+test,final-tri-model,42,Romance,199,0.45048204788648655
+test,final-tri-model,42,Sci-Fi,188,0.5599755661539686
+test,final-tri-model,42,Slice of Life,219,0.5276019958125846
+test,final-tri-model,42,Sports,53,0.33086168936888666
+test,final-tri-model,42,Supernatural,122,0.27067636620587243
+test,final-tri-model,42,Thriller,15,0.10380824134285857
+test,final-tri-model,43,Action,326,0.7125811701775604
+test,final-tri-model,43,Adventure,173,0.4247152684678581
+test,final-tri-model,43,Comedy,485,0.7794007064378612
+test,final-tri-model,43,Drama,203,0.41573997271341245
+test,final-tri-model,43,Ecchi,81,0.3575281045985158
+test,final-tri-model,43,Fantasy,271,0.6192396531080175
+test,final-tri-model,43,Hentai,144,0.9585246212442962
+test,final-tri-model,43,Horror,25,0.16803743267658056
+test,final-tri-model,43,Mahou Shoujo,37,0.4107814054585134
+test,final-tri-model,43,Mecha,65,0.6249455365413586
+test,final-tri-model,43,Music,45,0.3007201000532561
+test,final-tri-model,43,Mystery,57,0.245239874558602
+test,final-tri-model,43,Psychological,48,0.15348312044700618
+test,final-tri-model,43,Romance,199,0.46086272569363707
+test,final-tri-model,43,Sci-Fi,188,0.5520425800889535
+test,final-tri-model,43,Slice of Life,219,0.5287150583012602
+test,final-tri-model,43,Sports,53,0.37180568334967745
+test,final-tri-model,43,Supernatural,122,0.2901293245437621
+test,final-tri-model,43,Thriller,15,0.13498520421480625
+test,final-tri-model,44,Action,326,0.7152590114222536
+test,final-tri-model,44,Adventure,173,0.4199078416850608
+test,final-tri-model,44,Comedy,485,0.7654866749925029
+test,final-tri-model,44,Drama,203,0.44684580583975936
+test,final-tri-model,44,Ecchi,81,0.3479532650882048
+test,final-tri-model,44,Fantasy,271,0.5894907896337442
+test,final-tri-model,44,Hentai,144,0.9601932877641322
+test,final-tri-model,44,Horror,25,0.229566504104867
+test,final-tri-model,44,Mahou Shoujo,37,0.4294436872144397
+test,final-tri-model,44,Mecha,65,0.6045807148791474
+test,final-tri-model,44,Music,45,0.298271175606283
+test,final-tri-model,44,Mystery,57,0.26442276828243444
+test,final-tri-model,44,Psychological,48,0.1975556212238311
+test,final-tri-model,44,Romance,199,0.48491144146264964
+test,final-tri-model,44,Sci-Fi,188,0.5631370842649652
+test,final-tri-model,44,Slice of Life,219,0.532705712877049
+test,final-tri-model,44,Sports,53,0.3135831751779262
+test,final-tri-model,44,Supernatural,122,0.2552137266688379
+test,final-tri-model,44,Thriller,15,0.07913265647506076

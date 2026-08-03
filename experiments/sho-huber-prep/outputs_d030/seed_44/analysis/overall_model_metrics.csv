@@ -1,0 +1,2 @@
+seed,split,method,macro_f1,samples_f1,hamming_loss,mAP,predicted_labels_per_item,run_dir
+44,validation,model_threshold_0.5,0.11989360225413542,0.3121794599493083,0.12211840931499131,0.26112566101588497,0.9259589652096343,experiments/sho-huber-prep/outputs_d030/seed_44

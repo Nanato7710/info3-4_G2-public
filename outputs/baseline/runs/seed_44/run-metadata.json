@@ -1,0 +1,39 @@
+{
+  "best_epoch": 13,
+  "best_validation_mAP": 0.2886825944531322,
+  "checkpoint_sha256": "109e4c1f3cbca0b2f64df895f2f89daf34981180f127df937c78052151c9b166",
+  "code_snapshot": {
+    "correspondence_evidence": [
+      "checkpoint loads strictly into the submitted model",
+      "submitted config matches the saved experiment config",
+      "saved validation predictions match exactly one history epoch"
+    ],
+    "limitation": "the exact historical Git commit was not recorded",
+    "path": "outputs/baseline",
+    "sha256": "1f768b4ec10401beb042abc49c7ecbbfe61045b6fad1cb3997124fecfe300a06"
+  },
+  "dirty_worktree": null,
+  "duration_seconds": null,
+  "early_stopping": {
+    "min_delta": 0.001,
+    "mode": "max",
+    "monitor": "mAP",
+    "stop_reason": "saved history ended before configured epochs after patience was exhausted",
+    "stopped_early": true
+  },
+  "ended_at": null,
+  "git_commit": null,
+  "historical_git_reason": "not recorded by the historical training run",
+  "model_id": "baseline",
+  "resolved_config_sha256": "c2e0d520e0f1a76e170ebbc15728f923d78f35d4f753ca7d9c43d443e98008b2",
+  "seed": 44,
+  "started_at": null,
+  "unavailable_timing_reason": "the saved run did not record wall-clock timestamps",
+  "versions": {
+    "python": null,
+    "pytorch": null,
+    "timm": null,
+    "torchvision": null,
+    "unavailable_reason": "not recorded by the historical training run"
+  }
+}

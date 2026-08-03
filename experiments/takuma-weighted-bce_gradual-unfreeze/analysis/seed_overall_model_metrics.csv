@@ -1,0 +1,4 @@
+macro_f1,samples_f1,hamming_loss,mAP,predicted_labels_per_item,seed,split,method,run_dir
+0.3846504376269253,0.49410690904892507,0.1310859664772994,0.3870326797344214,2.43978590544157,42,validation,model_threshold_0.5,experiments/takuma-weighted-bce_gradual-unfreeze/outputs/seed_42
+0.39981945851750383,0.49543633094034517,0.1290201417906944,0.39632382715747944,2.414808206958073,43,validation,model_threshold_0.5,experiments/takuma-weighted-bce_gradual-unfreeze/outputs/seed_43
+0.3981995132730491,0.49802460895235207,0.12948964740128643,0.3903776466208584,2.464763603925067,44,validation,model_threshold_0.5,experiments/takuma-weighted-bce_gradual-unfreeze/outputs/seed_44

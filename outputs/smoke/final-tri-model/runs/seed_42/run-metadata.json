@@ -1,0 +1,27 @@
+{
+  "best_epoch": 1,
+  "best_validation_mAP": 0.9,
+  "checkpoint_sha256": "343e5e79cf9b69ff38cef29b9d1da50d777cc66cda96ddbeb17d2d8f12ba5c49",
+  "code_snapshot_sha256": "5f50b1e47818e12663acccf129476aaa4e6f3e1f1eb9c4f96b5b8210632cdd57",
+  "dirty_worktree": true,
+  "duration_seconds": 19.762684874935076,
+  "early_stopping": {
+    "min_delta": 0.001,
+    "monitor": "mAP",
+    "stop_reason": "configured epochs completed",
+    "stopped_early": false
+  },
+  "ended_at": "2026-07-27T02:51:22.051321+00:00",
+  "git_commit": "1626c8a8e68e66e18237a18f018dc600b905f246",
+  "historical_metadata_note": null,
+  "model_id": "final-tri-model",
+  "resolved_config_sha256": "07500edb963e481d98552ea57257352dbf29840411aa93853777b21859949231",
+  "seed": 42,
+  "started_at": "2026-07-27T02:51:02.469831+00:00",
+  "versions": {
+    "python": "3.13.13",
+    "pytorch": "2.12.1",
+    "timm": "1.0.27",
+    "torchvision": "0.27.1"
+  }
+}

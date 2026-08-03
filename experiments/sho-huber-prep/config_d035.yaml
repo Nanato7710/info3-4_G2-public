@@ -1,0 +1,28 @@
+seed: 42
+seeds:
+  - 42
+  - 43
+  - 44
+device: auto
+comparison:
+  primary: baseline
+  references: []
+epochs: 100
+early_stopping:
+  enabled: true
+  monitor: mAP
+  mode: max
+  patience: 20
+  min_delta: 0.001
+  min_epochs: 1
+batch_size: 64
+learning_rate: 0.001
+num_workers: 0
+image_size: 224
+compile: true
+max_train_samples:
+max_val_samples:
+output_dir: outputs_d035
+best_model_name: best_model_d035.pth
+metrics_name: metrics_d035.csv
+huber_delta: 0.35

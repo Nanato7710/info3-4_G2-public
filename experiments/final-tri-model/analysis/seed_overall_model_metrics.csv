@@ -1,0 +1,4 @@
+macro_f1,samples_f1,hamming_loss,mAP,predicted_labels_per_item,seed,split,method,run_dir
+0.35203105819720976,0.5040546280956629,0.10840884548570355,0.4432275369677712,1.7395182872435326,42,validation,model_threshold_0.5,experiments/final-tri-model/outputs/seed_42
+0.31206485213148755,0.4779954013673907,0.10479365228414479,0.4394853069869364,1.4335414808206959,43,validation,model_threshold_0.5,experiments/final-tri-model/outputs/seed_43
+0.3779322252993617,0.5321788034544502,0.10850274660782196,0.443877547482352,1.9072256913470116,44,validation,model_threshold_0.5,experiments/final-tri-model/outputs/seed_44

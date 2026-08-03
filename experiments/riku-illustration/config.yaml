@@ -1,0 +1,18 @@
+seed: 42
+device: auto
+epochs: 2
+batch_size: 32
+learning_rate: 0.001
+layer4_learning_rate: 0.0001
+body_learning_rate: 0.000001
+
+training_mode: body_and_fc
+
+num_workers: 2
+image_size: 360
+compile: true
+max_train_samples:
+max_val_samples:
+output_dir: outputs
+best_model_name: best_model.pth
+metrics_name: best_model.csv

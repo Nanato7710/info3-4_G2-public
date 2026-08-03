@@ -1,0 +1,22 @@
+{
+  "evaluation_policy": "Validation only. The test split is not used.",
+  "primary_metric": "mAP",
+  "standard_method": "train_prevalence",
+  "description": "Image-free baseline that assigns each genre its training-set prevalence for every item.",
+  "outputs": [
+    "analysis_summary.json",
+    "genre_metrics_validation_threshold_0.5.csv",
+    "overall_model_metrics.csv"
+  ],
+  "model_metrics": [
+    {
+      "split": "validation",
+      "method": "train_prevalence",
+      "macro_f1": 0.0,
+      "samples_f1": 0.0,
+      "hamming_loss": 0.1269073665430302,
+      "mAP": 0.1269073665430302,
+      "predicted_labels_per_item": 0.0
+    }
+  ]
+}

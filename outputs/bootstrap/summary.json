@@ -1,0 +1,408 @@
+{
+  "analysis": {
+    "bootstrap_delta_mean": 0.14818830001639172,
+    "bootstrap_delta_standard_deviation": 0.011704675413542307,
+    "bootstrap_delta_standard_deviation_ddof": 1,
+    "confidence_interval": {
+      "lower": 0.1249151447956372,
+      "upper": 0.17070888532521422
+    },
+    "confidence_interval_crosses_zero": false,
+    "confidence_interval_method": "percentile",
+    "confidence_level": 0.95,
+    "delta_definition": "mean_mAP(final-tri-model seeds 42,43,44) - mean_mAP(baseline seeds 42,43,44)",
+    "full_test_seed_maps": {
+      "baseline": {
+        "42": 0.30098571406993085,
+        "43": 0.29256783235446826,
+        "44": 0.2939833126177517
+      },
+      "final-tri-model": {
+        "42": 0.44165540230895484,
+        "43": 0.44786723908815446,
+        "44": 0.44724531287700786
+      }
+    },
+    "point_estimate": 0.14974369841065543,
+    "proportion_delta_greater_than_zero": 1.0
+  },
+  "execution": {
+    "duration_seconds": 261.21538225002587,
+    "finished_at": "2026-07-27T03:48:40.351924+00:00",
+    "started_at": "2026-07-27T03:44:19.135802+00:00"
+  },
+  "input_validation": {
+    "alignment_records": [
+      {
+        "action": "reference_order",
+        "model": "baseline",
+        "rows_reordered": 0,
+        "seed": 42
+      },
+      {
+        "action": "already_aligned",
+        "model": "baseline",
+        "rows_reordered": 0,
+        "seed": 43
+      },
+      {
+        "action": "already_aligned",
+        "model": "baseline",
+        "rows_reordered": 0,
+        "seed": 44
+      },
+      {
+        "action": "already_aligned",
+        "model": "final-tri-model",
+        "rows_reordered": 0,
+        "seed": 42
+      },
+      {
+        "action": "already_aligned",
+        "model": "final-tri-model",
+        "rows_reordered": 0,
+        "seed": 43
+      },
+      {
+        "action": "already_aligned",
+        "model": "final-tri-model",
+        "rows_reordered": 0,
+        "seed": 44
+      }
+    ],
+    "expected": {
+      "label_count": 19,
+      "row_count": 1121,
+      "series_group_count": 677
+    },
+    "inputs": [
+      {
+        "model": "baseline",
+        "path": "outputs/baseline/runs/seed_42/test_predictions.npz",
+        "schema_check": {
+          "label_count": 19,
+          "logits_finite": true,
+          "missing_id_count": 0,
+          "missing_series_group_count": 0,
+          "positive_counts_by_genre": {
+            "Action": 326,
+            "Adventure": 173,
+            "Comedy": 485,
+            "Drama": 203,
+            "Ecchi": 81,
+            "Fantasy": 271,
+            "Hentai": 144,
+            "Horror": 25,
+            "Mahou Shoujo": 37,
+            "Mecha": 65,
+            "Music": 45,
+            "Mystery": 57,
+            "Psychological": 48,
+            "Romance": 199,
+            "Sci-Fi": 188,
+            "Slice of Life": 219,
+            "Sports": 53,
+            "Supernatural": 122,
+            "Thriller": 15
+          },
+          "row_count": 1121,
+          "schema_valid": true,
+          "score_max": 0.9990509152412415,
+          "score_min": 6.715535710100085e-05,
+          "scores_finite": true,
+          "series_group_count": 677,
+          "target_values": [
+            0,
+            1
+          ],
+          "unique_id_count": 1121
+        },
+        "seed": 42,
+        "sha256": "9cd39bebd20a1fd35f1c17b4a214901ba8ce17629d162d3fe43ea8c9f0436221"
+      },
+      {
+        "model": "baseline",
+        "path": "outputs/baseline/runs/seed_43/test_predictions.npz",
+        "schema_check": {
+          "label_count": 19,
+          "logits_finite": true,
+          "missing_id_count": 0,
+          "missing_series_group_count": 0,
+          "positive_counts_by_genre": {
+            "Action": 326,
+            "Adventure": 173,
+            "Comedy": 485,
+            "Drama": 203,
+            "Ecchi": 81,
+            "Fantasy": 271,
+            "Hentai": 144,
+            "Horror": 25,
+            "Mahou Shoujo": 37,
+            "Mecha": 65,
+            "Music": 45,
+            "Mystery": 57,
+            "Psychological": 48,
+            "Romance": 199,
+            "Sci-Fi": 188,
+            "Slice of Life": 219,
+            "Sports": 53,
+            "Supernatural": 122,
+            "Thriller": 15
+          },
+          "row_count": 1121,
+          "schema_valid": true,
+          "score_max": 0.9999997615814209,
+          "score_min": 2.595024852780625e-07,
+          "scores_finite": true,
+          "series_group_count": 677,
+          "target_values": [
+            0,
+            1
+          ],
+          "unique_id_count": 1121
+        },
+        "seed": 43,
+        "sha256": "fb1adf8072a3f69c6808cbd13a2f7f7161e0322db0bb4be55a21818a60948c4c"
+      },
+      {
+        "model": "baseline",
+        "path": "outputs/baseline/runs/seed_44/test_predictions.npz",
+        "schema_check": {
+          "label_count": 19,
+          "logits_finite": true,
+          "missing_id_count": 0,
+          "missing_series_group_count": 0,
+          "positive_counts_by_genre": {
+            "Action": 326,
+            "Adventure": 173,
+            "Comedy": 485,
+            "Drama": 203,
+            "Ecchi": 81,
+            "Fantasy": 271,
+            "Hentai": 144,
+            "Horror": 25,
+            "Mahou Shoujo": 37,
+            "Mecha": 65,
+            "Music": 45,
+            "Mystery": 57,
+            "Psychological": 48,
+            "Romance": 199,
+            "Sci-Fi": 188,
+            "Slice of Life": 219,
+            "Sports": 53,
+            "Supernatural": 122,
+            "Thriller": 15
+          },
+          "row_count": 1121,
+          "schema_valid": true,
+          "score_max": 0.9999998807907104,
+          "score_min": 2.7097087240690598e-08,
+          "scores_finite": true,
+          "series_group_count": 677,
+          "target_values": [
+            0,
+            1
+          ],
+          "unique_id_count": 1121
+        },
+        "seed": 44,
+        "sha256": "8219bec35518ef5aecaf0fbde623052275764270ee6506f52da1b82d35cb89f0"
+      },
+      {
+        "model": "final-tri-model",
+        "path": "outputs/final-tri-model/runs/seed_42/test_predictions.npz",
+        "schema_check": {
+          "label_count": 19,
+          "logits_finite": true,
+          "missing_id_count": 0,
+          "missing_series_group_count": 0,
+          "positive_counts_by_genre": {
+            "Action": 326,
+            "Adventure": 173,
+            "Comedy": 485,
+            "Drama": 203,
+            "Ecchi": 81,
+            "Fantasy": 271,
+            "Hentai": 144,
+            "Horror": 25,
+            "Mahou Shoujo": 37,
+            "Mecha": 65,
+            "Music": 45,
+            "Mystery": 57,
+            "Psychological": 48,
+            "Romance": 199,
+            "Sci-Fi": 188,
+            "Slice of Life": 219,
+            "Sports": 53,
+            "Supernatural": 122,
+            "Thriller": 15
+          },
+          "row_count": 1121,
+          "schema_valid": true,
+          "score_max": 0.9980270266532898,
+          "score_min": 0.0017981696873903275,
+          "scores_finite": true,
+          "series_group_count": 677,
+          "target_values": [
+            0,
+            1
+          ],
+          "unique_id_count": 1121
+        },
+        "seed": 42,
+        "sha256": "35e55cea62247d17cfd7e4068d788c33f26a3fc9a50b86c4086f8dfc7e07cc0d"
+      },
+      {
+        "model": "final-tri-model",
+        "path": "outputs/final-tri-model/runs/seed_43/test_predictions.npz",
+        "schema_check": {
+          "label_count": 19,
+          "logits_finite": true,
+          "missing_id_count": 0,
+          "missing_series_group_count": 0,
+          "positive_counts_by_genre": {
+            "Action": 326,
+            "Adventure": 173,
+            "Comedy": 485,
+            "Drama": 203,
+            "Ecchi": 81,
+            "Fantasy": 271,
+            "Hentai": 144,
+            "Horror": 25,
+            "Mahou Shoujo": 37,
+            "Mecha": 65,
+            "Music": 45,
+            "Mystery": 57,
+            "Psychological": 48,
+            "Romance": 199,
+            "Sci-Fi": 188,
+            "Slice of Life": 219,
+            "Sports": 53,
+            "Supernatural": 122,
+            "Thriller": 15
+          },
+          "row_count": 1121,
+          "schema_valid": true,
+          "score_max": 0.9938993453979492,
+          "score_min": 0.001575311878696084,
+          "scores_finite": true,
+          "series_group_count": 677,
+          "target_values": [
+            0,
+            1
+          ],
+          "unique_id_count": 1121
+        },
+        "seed": 43,
+        "sha256": "5850307d7ddbe37fca91d8c396ea1387428f370600207203e1d200e92e40679e"
+      },
+      {
+        "model": "final-tri-model",
+        "path": "outputs/final-tri-model/runs/seed_44/test_predictions.npz",
+        "schema_check": {
+          "label_count": 19,
+          "logits_finite": true,
+          "missing_id_count": 0,
+          "missing_series_group_count": 0,
+          "positive_counts_by_genre": {
+            "Action": 326,
+            "Adventure": 173,
+            "Comedy": 485,
+            "Drama": 203,
+            "Ecchi": 81,
+            "Fantasy": 271,
+            "Hentai": 144,
+            "Horror": 25,
+            "Mahou Shoujo": 37,
+            "Mecha": 65,
+            "Music": 45,
+            "Mystery": 57,
+            "Psychological": 48,
+            "Romance": 199,
+            "Sci-Fi": 188,
+            "Slice of Life": 219,
+            "Sports": 53,
+            "Supernatural": 122,
+            "Thriller": 15
+          },
+          "row_count": 1121,
+          "schema_valid": true,
+          "score_max": 0.9953415393829346,
+          "score_min": 0.002243081573396921,
+          "scores_finite": true,
+          "series_group_count": 677,
+          "target_values": [
+            0,
+            1
+          ],
+          "unique_id_count": 1121
+        },
+        "seed": 44,
+        "sha256": "1b2e2926dbc49f6469e67d88d09c927c53bc761003d9c44cfbe187b64716c9bb"
+      }
+    ],
+    "status": "passed"
+  },
+  "outputs": {
+    "distribution_png": {
+      "path": "outputs/bootstrap/delta-map-distribution.png",
+      "sha256": "c114f78768f64c5c31cb6b25e9e9df94e1c25bd748dc56c538e46fb3a4f7e9fd"
+    },
+    "distribution_svg": {
+      "path": "outputs/bootstrap/delta-map-distribution.svg",
+      "sha256": "0c6a01c2e2190d4607671176f87f3fdfeb23914e0006c91aaf0a9ef6086688bb"
+    },
+    "replicates_csv": {
+      "path": "outputs/bootstrap/replicates.csv",
+      "row_count": 10000,
+      "sha256": "bfec60086dfbba7184552ab43277744da4e0e0c4d6beea811aec1d2b894ed68d"
+    }
+  },
+  "reproducibility": {
+    "bit_generator": "PCG64",
+    "computational_config_sha256": "5150d25fc403f44f0e850a7a749ed4318f39a11c87d340d34bbf34145ac49d87",
+    "config_path": "outputs/bootstrap/config.yaml",
+    "matplotlib_version": "3.11.0",
+    "numpy_version": "2.5.1",
+    "pandas_version": "3.0.3",
+    "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+    "python_version": "3.13.13",
+    "result_fingerprint": "77750a75ed86379c72e181889d2b9c24c460dc5e971431458834fdbd7866e08e",
+    "rng": "numpy.random.Generator",
+    "scikit_learn_version": "1.9.0"
+  },
+  "sampling": {
+    "groups_drawn_with_replacement_per_attempt": 677,
+    "invalid_attempts": 0,
+    "invalid_label_counts": {
+      "Action": 0,
+      "Adventure": 0,
+      "Comedy": 0,
+      "Drama": 0,
+      "Ecchi": 0,
+      "Fantasy": 0,
+      "Hentai": 0,
+      "Horror": 0,
+      "Mahou Shoujo": 0,
+      "Mecha": 0,
+      "Music": 0,
+      "Mystery": 0,
+      "Psychological": 0,
+      "Romance": 0,
+      "Sci-Fi": 0,
+      "Slice of Life": 0,
+      "Sports": 0,
+      "Supernatural": 0,
+      "Thriller": 0
+    },
+    "invalid_reason_counts": {
+      "any_label_has_no_positive": 0
+    },
+    "max_attempts": 1000000,
+    "population_group_count": 677,
+    "random_seed": 42,
+    "sampling_unit": "SeriesGroup",
+    "total_attempts": 10000,
+    "valid_replicates": 10000
+  }
+}

@@ -1,0 +1,4 @@
+macro_f1,samples_f1,hamming_loss,mAP,predicted_labels_per_item,seed,split,method,run_dir
+0.38156166506917116,0.47796894848634364,0.2035776327527114,0.3765416063156626,4.661016949152542,42,validation,model_threshold_0.5,experiments/sho-swin-weighted-bce/outputs/seed_42
+0.37503797899283114,0.4689794659871272,0.22202920324897882,0.36971200509084523,5.172167707404103,43,validation,model_threshold_0.5,experiments/sho-swin-weighted-bce/outputs/seed_43
+0.401175840578182,0.49670407895207186,0.17568899948354383,0.382630906415441,3.999107939339875,44,validation,model_threshold_0.5,experiments/sho-swin-weighted-bce/outputs/seed_44

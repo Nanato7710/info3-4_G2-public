@@ -1,0 +1,107 @@
+{
+  "genre_count": 19,
+  "genre_metrics": [
+    {
+      "average_precision": 0.6598297616594875,
+      "genre": "Action",
+      "positive_count": 305
+    },
+    {
+      "average_precision": 0.4414041377508044,
+      "genre": "Adventure",
+      "positive_count": 175
+    },
+    {
+      "average_precision": 0.7701792334554411,
+      "genre": "Comedy",
+      "positive_count": 487
+    },
+    {
+      "average_precision": 0.43254974423982,
+      "genre": "Drama",
+      "positive_count": 222
+    },
+    {
+      "average_precision": 0.37200931324267905,
+      "genre": "Ecchi",
+      "positive_count": 80
+    },
+    {
+      "average_precision": 0.5939461468163347,
+      "genre": "Fantasy",
+      "positive_count": 274
+    },
+    {
+      "average_precision": 0.9442530310887595,
+      "genre": "Hentai",
+      "positive_count": 137
+    },
+    {
+      "average_precision": 0.2511148437242576,
+      "genre": "Horror",
+      "positive_count": 39
+    },
+    {
+      "average_precision": 0.21089523758282877,
+      "genre": "Mahou Shoujo",
+      "positive_count": 22
+    },
+    {
+      "average_precision": 0.7253495705805897,
+      "genre": "Mecha",
+      "positive_count": 49
+    },
+    {
+      "average_precision": 0.5106260206206523,
+      "genre": "Music",
+      "positive_count": 58
+    },
+    {
+      "average_precision": 0.21211297421629852,
+      "genre": "Mystery",
+      "positive_count": 70
+    },
+    {
+      "average_precision": 0.16449951861899886,
+      "genre": "Psychological",
+      "positive_count": 54
+    },
+    {
+      "average_precision": 0.5191385173609605,
+      "genre": "Romance",
+      "positive_count": 167
+    },
+    {
+      "average_precision": 0.5009986634330799,
+      "genre": "Sci-Fi",
+      "positive_count": 157
+    },
+    {
+      "average_precision": 0.514388181848727,
+      "genre": "Slice of Life",
+      "positive_count": 195
+    },
+    {
+      "average_precision": 0.6901812424894401,
+      "genre": "Sports",
+      "positive_count": 61
+    },
+    {
+      "average_precision": 0.2697230248605876,
+      "genre": "Supernatural",
+      "positive_count": 133
+    },
+    {
+      "average_precision": 0.06321646889748868,
+      "genre": "Thriller",
+      "positive_count": 18
+    }
+  ],
+  "hamming_loss": 0.1039015916240199,
+  "mAP": 0.4656008227624861,
+  "macro_f1": 0.38875691043120614,
+  "row_count": 1121,
+  "samples_f1": 0.520018266003993,
+  "source": "converted from saved per-run validation prediction",
+  "threshold": 0.5
+}

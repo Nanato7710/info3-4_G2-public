@@ -1,0 +1,6 @@
+method: train_prevalence
+threshold: 0.5
+output_dir: outputs
+comparison:
+  primary:
+  references: []

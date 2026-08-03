@@ -1,0 +1,24 @@
+model_id: baseline
+seed: 43
+device: auto
+epochs: 100
+early_stopping:
+  enabled: true
+  monitor: mAP
+  mode: max
+  patience: 10
+  min_delta: 0.001
+  min_epochs: 1
+batch_size: 64
+learning_rate: 0.001
+num_workers: 0
+image_size: 224
+pretrained: false
+compile: true
+max_train_samples: null
+max_val_samples: null
+output_dir: runs
+criterion:
+  name: BCEWithLogitsLoss
+optimizer:
+  name: Adam

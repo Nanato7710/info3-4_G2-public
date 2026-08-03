@@ -1,0 +1,232 @@
+{
+  "device": "cpu",
+  "checkpoint_path": "src/baseline_resnet/model/resnet18_best.pth",
+  "best_logged_val_loss_epoch": 8,
+  "outputs": [
+    "analysis_summary.json",
+    "genre_metrics_test_threshold_0.5.csv",
+    "genre_metrics_test_validation_optimized_thresholds.csv",
+    "genre_metrics_validation_optimized_thresholds.csv",
+    "genre_metrics_validation_threshold_0.5.csv",
+    "learning_curves.png",
+    "learning_curves.svg",
+    "model_predictions.npz",
+    "optimized_thresholds_by_genre.csv",
+    "overall_model_metrics.csv",
+    "simple_baseline_comparison_test.csv"
+  ],
+  "model_metrics": [
+    {
+      "split": "validation",
+      "method": "model_threshold_0.5",
+      "macro_f1": 0.10238071053794887,
+      "samples_f1": 0.3106332214717585,
+      "hamming_loss": 0.11925442509037983,
+      "mAP": 0.28643605052514387,
+      "predicted_labels_per_item": 0.8465655664585192
+    },
+    {
+      "split": "validation",
+      "method": "model_validation_optimized_thresholds",
+      "macro_f1": 0.3473317041617275,
+      "samples_f1": 0.4352276020223701,
+      "hamming_loss": 0.2146579651626837,
+      "mAP": 0.28643605052514387,
+      "predicted_labels_per_item": 4.7252453166815345
+    },
+    {
+      "split": "test",
+      "method": "model_threshold_0.5",
+      "macro_f1": 0.11328585251896688,
+      "samples_f1": 0.32398581198759613,
+      "hamming_loss": 0.1179867599417813,
+      "mAP": 0.2875360499848646,
+      "predicted_labels_per_item": 0.8572702943800179
+    },
+    {
+      "split": "test",
+      "method": "model_validation_optimized_thresholds",
+      "macro_f1": 0.3252171715218049,
+      "samples_f1": 0.4317794747741749,
+      "hamming_loss": 0.2177567021925912,
+      "mAP": 0.2875360499848646,
+      "predicted_labels_per_item": 4.685102586975915
+    }
+  ],
+  "simple_baselines_test": [
+    {
+      "method": "model_threshold_0.5",
+      "macro_f1": 0.11328585251896688,
+      "samples_f1": 0.32398581198759613,
+      "hamming_loss": 0.1179867599417813,
+      "mAP": 0.2875360499848646,
+      "predicted_labels_per_item": 0.8572702943800179
+    },
+    {
+      "method": "always_none",
+      "macro_f1": 0.0,
+      "samples_f1": 0.0,
+      "hamming_loss": 0.12939574627916803,
+      "mAP": 0.12939574627916803,
+      "predicted_labels_per_item": 0.0
+    },
+    {
+      "method": "always_top_2_train_genres",
+      "macro_f1": 0.05550381464698882,
+      "samples_f1": 0.31513671183608744,
+      "hamming_loss": 0.15850509413587494,
+      "mAP": 0.12939574627916803,
+      "predicted_labels_per_item": 2.0
+    },
+    {
+      "method": "always_top_3_train_genres",
+      "macro_f1": 0.07599685759919693,
+      "samples_f1": 0.33405476969259307,
+      "hamming_loss": 0.18568946898915442,
+      "mAP": 0.12939574627916803,
+      "predicted_labels_per_item": 3.0
+    },
+    {
+      "method": "bernoulli_by_train_prevalence_mean_100",
+      "macro_f1": 0.1291501535346153,
+      "samples_f1": 0.18761001388343046,
+      "hamming_loss": 0.20449974177191418,
+      "mAP": 0.13009970223959802,
+      "predicted_labels_per_item": 2.477698483496878
+    }
+  ],
+  "worst_test_f1_genres_threshold_0.5": [
+    {
+      "genre": "Thriller",
+      "support": 15,
+      "predicted_positive": 0,
+      "threshold": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ap": 0.05488917394300212
+    },
+    {
+      "genre": "Horror",
+      "support": 25,
+      "predicted_positive": 0,
+      "threshold": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ap": 0.09716705589557963
+    },
+    {
+      "genre": "Music",
+      "support": 45,
+      "predicted_positive": 0,
+      "threshold": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ap": 0.08978339601808025
+    },
+    {
+      "genre": "Psychological",
+      "support": 48,
+      "predicted_positive": 0,
+      "threshold": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ap": 0.11959914640421793
+    },
+    {
+      "genre": "Sports",
+      "support": 53,
+      "predicted_positive": 0,
+      "threshold": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ap": 0.0641089249606224
+    },
+    {
+      "genre": "Mystery",
+      "support": 57,
+      "predicted_positive": 0,
+      "threshold": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ap": 0.12467677702496638
+    },
+    {
+      "genre": "Mecha",
+      "support": 65,
+      "predicted_positive": 0,
+      "threshold": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ap": 0.23710279114119118
+    },
+    {
+      "genre": "Ecchi",
+      "support": 81,
+      "predicted_positive": 0,
+      "threshold": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ap": 0.22282436272721048
+    }
+  ],
+  "best_test_ap_genres_threshold_0.5": [
+    {
+      "genre": "Hentai",
+      "support": 144,
+      "predicted_positive": 84,
+      "threshold": 0.5,
+      "precision": 0.9047619047619048,
+      "recall": 0.5277777777777778,
+      "f1": 0.6666666666666666,
+      "ap": 0.8066182149586502
+    },
+    {
+      "genre": "Comedy",
+      "support": 485,
+      "predicted_positive": 586,
+      "threshold": 0.5,
+      "precision": 0.6075085324232082,
+      "recall": 0.734020618556701,
+      "f1": 0.6647992530345471,
+      "ap": 0.6872351189477057
+    },
+    {
+      "genre": "Action",
+      "support": 326,
+      "predicted_positive": 221,
+      "threshold": 0.5,
+      "precision": 0.6063348416289592,
+      "recall": 0.4110429447852761,
+      "f1": 0.489945155393053,
+      "ap": 0.5933012521791398
+    },
+    {
+      "genre": "Slice of Life",
+      "support": 219,
+      "predicted_positive": 48,
+      "threshold": 0.5,
+      "precision": 0.5416666666666666,
+      "recall": 0.1187214611872146,
+      "f1": 0.1947565543071161,
+      "ap": 0.40426424409829337
+    },
+    {
+      "genre": "Sci-Fi",
+      "support": 188,
+      "predicted_positive": 2,
+      "threshold": 0.5,
+      "precision": 0.5,
+      "recall": 0.005319148936170213,
+      "f1": 0.010526315789473684,
+      "ap": 0.3636668506347259
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "created_at": "2026-07-27T02:53:50.563645+00:00",
+  "inputs": [
+    {
+      "path": "outputs/baseline/runs/seed_42/validation_predictions.npz",
+      "sha256": "9ce6f18b7b047ebc81a07caa82b2a4aee565b81c31d49db41f31f2c99e5ee762"
+    },
+    {
+      "path": "outputs/baseline/runs/seed_43/validation_predictions.npz",
+      "sha256": "3c4103f42d3865c30f162227796a2654c7d061de0d5d4f92ec051c2b685b82be"
+    },
+    {
+      "path": "outputs/baseline/runs/seed_44/validation_predictions.npz",
+      "sha256": "97c89c7b7ff7dd113ec2771db2a2b1a51524a428073acb8332f4875faf7fc280"
+    },
+    {
+      "path": "outputs/final-tri-model/runs/seed_42/validation_predictions.npz",
+      "sha256": "580811902782fb99ec407a902fcef01877d694833ffa735489cb7fa367231d51"
+    },
+    {
+      "path": "outputs/final-tri-model/runs/seed_43/validation_predictions.npz",
+      "sha256": "e360a398eb1c09721c8b957aea355019c4403a6ce91d41ac3c8b428c28c55bcd"
+    },
+    {
+      "path": "outputs/final-tri-model/runs/seed_44/validation_predictions.npz",
+      "sha256": "d87c0e4c042d1404f8f24005d5ae15409a00402821ed8702c576ebc02c27bcb1"
+    }
+  ],
+  "metric_formula": {
+    "hamming_loss": "fraction of labels misclassified at score >= 0.5",
+    "mAP": "macro mean of per-genre average precision",
+    "macro_f1": "macro F1 at score >= 0.5",
+    "samples_f1": "sample-averaged F1 at score >= 0.5"
+  },
+  "models": {
+    "baseline": {
+      "hamming_loss": {
+        "maximum": 0.13240058218695713,
+        "mean": 0.12584315382568823,
+        "minimum": 0.11897272172402461,
+        "sample_standard_deviation": 0.006719400096669525
+      },
+      "mAP": {
+        "maximum": 0.2886825944531322,
+        "mean": 0.2853708127539342,
+        "minimum": 0.28077986533133253,
+        "sample_standard_deviation": 0.004103715463343337
+      },
+      "macro_f1": {
+        "maximum": 0.17906255666123183,
+        "mean": 0.15126449859491917,
+        "minimum": 0.11097898814697604,
+        "sample_standard_deviation": 0.035718278592990114
+      },
+      "samples_f1": {
+        "maximum": 0.34379593050422663,
+        "mean": 0.3276527004894534,
+        "minimum": 0.31199609192472705,
+        "sample_standard_deviation": 0.01590550325350606
+      }
+    },
+    "final-tri-model": {
+      "hamming_loss": {
+        "maximum": 0.10746983426451946,
+        "mean": 0.10543530995195392,
+        "minimum": 0.1039015916240199,
+        "sample_standard_deviation": 0.0018360811150523455
+      },
+      "mAP": {
+        "maximum": 0.4754640196088303,
+        "mean": 0.46747040765445647,
+        "minimum": 0.46134638059205296,
+        "sample_standard_deviation": 0.007242129769841267
+      },
+      "macro_f1": {
+        "maximum": 0.42040747088227254,
+        "mean": 0.4032108168031729,
+        "minimum": 0.38875691043120614,
+        "sample_standard_deviation": 0.01600254645221782
+      },
+      "samples_f1": {
+        "maximum": 0.5484256352231375,
+        "mean": 0.5315961221848822,
+        "minimum": 0.520018266003993,
+        "sample_standard_deviation": 0.014914073263157824
+      }
+    }
+  },
+  "seed_summary_formula": {
+    "maximum": "max(x_i)",
+    "mean": "sum(x_i) / 3",
+    "minimum": "min(x_i)",
+    "sample_standard_deviation": "sqrt(sum((x_i - mean)^2) / (3 - 1))"
+  },
+  "split": "validation",
+  "threshold": 0.5
+}

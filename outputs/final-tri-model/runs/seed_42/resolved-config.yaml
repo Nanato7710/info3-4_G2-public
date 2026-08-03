@@ -1,0 +1,28 @@
+model_id: final-tri-model
+seed: 42
+device: auto
+epochs: 50
+early_stopping:
+  enabled: true
+  monitor: mAP
+  mode: max
+  patience: 10
+  min_delta: 0.001
+  min_epochs: 10
+batch_size: 32
+learning_rate: 5.0e-05
+num_workers: 2
+image_size: 384
+pretrained: true
+compile: true
+max_train_samples: null
+max_val_samples: null
+output_dir: runs
+criterion:
+  name: AsymmetricLoss
+  gamma_pos: 0.1
+  gamma_neg: 1.0
+  clip: 0.05
+  eps: 1.0e-08
+optimizer:
+  name: AdamW

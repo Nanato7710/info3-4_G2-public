@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-07-27T02:54:24.707887+00:00",
+  "git_commit_at_preparation": "1626c8a8e68e66e18237a18f018dc600b905f246",
+  "runs": [
+    {
+      "best_epoch": 9,
+      "checkpoint_sha256": "5ee991b50be6430278180229daa63981ee64676f183199ca6eae0742bf3c693d",
+      "model_id": "baseline",
+      "seed": 42,
+      "status": "already_complete",
+      "validation_mAP": 0.2866499784773378
+    },
+    {
+      "best_epoch": 12,
+      "checkpoint_sha256": "cf5ac5109a2cb3f4197b976cfc5205e844de6eb6962dbce6d39ebc70fc7a5ff9",
+      "model_id": "baseline",
+      "seed": 43,
+      "status": "already_complete",
+      "validation_mAP": 0.28077986533133253
+    },
+    {
+      "best_epoch": 13,
+      "checkpoint_sha256": "109e4c1f3cbca0b2f64df895f2f89daf34981180f127df937c78052151c9b166",
+      "model_id": "baseline",
+      "seed": 44,
+      "status": "already_complete",
+      "validation_mAP": 0.2886825944531322
+    },
+    {
+      "best_epoch": 4,
+      "checkpoint_sha256": "fe08e1515679b89445bd7806660bd1e687d5f5cc93d6b7669c0dc0abf9f64b9a",
+      "model_id": "final-tri-model",
+      "seed": 42,
+      "status": "already_complete",
+      "validation_mAP": 0.4656008227624861
+    },
+    {
+      "best_epoch": 3,
+      "checkpoint_sha256": "766f26e30fcd42109763bdb138b35396ae733f42de9a823cbd149681e196bbf5",
+      "model_id": "final-tri-model",
+      "seed": 43,
+      "status": "already_complete",
+      "validation_mAP": 0.46134638059205296
+    },
+    {
+      "best_epoch": 3,
+      "checkpoint_sha256": "4f622353b3863ae561da5da02bc57361a73910abd691f70d446e813921eb06c2",
+      "model_id": "final-tri-model",
+      "seed": 44,
+      "status": "already_complete",
+      "validation_mAP": 0.4754640196088303
+    }
+  ]
+}

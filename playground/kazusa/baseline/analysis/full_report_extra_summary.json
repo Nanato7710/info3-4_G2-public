@@ -1,0 +1,261 @@
+{
+  "checkpoint_improvements": [
+    {
+      "epoch": 1,
+      "train_loss": 0.3264405859512211,
+      "val_loss": 0.3256593862088209,
+      "macro_f1": 0.0750978140024311,
+      "samples_f1": 0.2081262478229472,
+      "hamming_loss": 0.1239964317573595,
+      "mAP": 0.2330026489730782
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.3135140066176397,
+      "val_loss": 0.3227473740382028,
+      "macro_f1": 0.064943522553545,
+      "samples_f1": 0.2563123911473599,
+      "hamming_loss": 0.1241372834405371,
+      "mAP": 0.2401917505417027
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.3061599844272906,
+      "val_loss": 0.3080225854606951,
+      "macro_f1": 0.0988266143461289,
+      "samples_f1": 0.2697173725273636,
+      "hamming_loss": 0.1203342879947415,
+      "mAP": 0.2626953480502822
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.2973620434371411,
+      "val_loss": 0.3067365641257892,
+      "macro_f1": 0.1243961752497015,
+      "samples_f1": 0.3136301204989876,
+      "hamming_loss": 0.1211793980938072,
+      "mAP": 0.2756878208184142
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.2931855557798554,
+      "val_loss": 0.3020969107148905,
+      "macro_f1": 0.1023807105379488,
+      "samples_f1": 0.3106332214717585,
+      "hamming_loss": 0.1192544250903798,
+      "mAP": 0.2864360505251438
+    }
+  ],
+  "best_by_val_loss": {
+    "epoch": 8,
+    "train_loss": 0.2931855557798554,
+    "val_loss": 0.3020969107148905,
+    "macro_f1": 0.1023807105379488,
+    "samples_f1": 0.3106332214717585,
+    "hamming_loss": 0.1192544250903798,
+    "mAP": 0.2864360505251438
+  },
+  "top_test_f1_threshold_0_5": [
+    {
+      "genre": "Hentai",
+      "support": 144,
+      "predicted_positive": 84,
+      "threshold": 0.5,
+      "precision": 0.9047619047619048,
+      "recall": 0.5277777777777778,
+      "f1": 0.6666666666666666,
+      "ap": 0.8066182149586502
+    },
+    {
+      "genre": "Comedy",
+      "support": 485,
+      "predicted_positive": 586,
+      "threshold": 0.5,
+      "precision": 0.6075085324232082,
+      "recall": 0.734020618556701,
+      "f1": 0.6647992530345471,
+      "ap": 0.6872351189477057
+    },
+    {
+      "genre": "Action",
+      "support": 326,
+      "predicted_positive": 221,
+      "threshold": 0.5,
+      "precision": 0.6063348416289592,
+      "recall": 0.4110429447852761,
+      "f1": 0.489945155393053,
+      "ap": 0.5933012521791398
+    },
+    {
+      "genre": "Slice of Life",
+      "support": 219,
+      "predicted_positive": 48,
+      "threshold": 0.5,
+      "precision": 0.5416666666666666,
+      "recall": 0.1187214611872146,
+      "f1": 0.1947565543071161,
+      "ap": 0.4042642440982933
+    },
+    {
+      "genre": "Mahou Shoujo",
+      "support": 37,
+      "predicted_positive": 1,
+      "threshold": 0.5,
+      "precision": 1.0,
+      "recall": 0.027027027027027,
+      "f1": 0.0526315789473684,
+      "ap": 0.170093447827808
+    },
+    {
+      "genre": "Romance",
+      "support": 199,
+      "predicted_positive": 9,
+      "threshold": 0.5,
+      "precision": 0.3333333333333333,
+      "recall": 0.0150753768844221,
+      "f1": 0.0288461538461538,
+      "ap": 0.3090592548344587
+    }
+  ],
+  "zero_positive_genres_threshold_0_5": [
+    "Drama",
+    "Ecchi",
+    "Horror",
+    "Mecha",
+    "Music",
+    "Mystery",
+    "Psychological",
+    "Sports",
+    "Supernatural",
+    "Thriller"
+  ],
+  "lowest_test_ap_threshold_0_5": [
+    {
+      "genre": "Thriller",
+      "support": 15,
+      "predicted_positive": 0,
+      "threshold": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ap": 0.0548891739430021
+    },
+    {
+      "genre": "Sports",
+      "support": 53,
+      "predicted_positive": 0,
+      "threshold": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ap": 0.0641089249606224
+    },
+    {
+      "genre": "Music",
+      "support": 45,
+      "predicted_positive": 0,
+      "threshold": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ap": 0.0897833960180802
+    },
+    {
+      "genre": "Horror",
+      "support": 25,
+      "predicted_positive": 0,
+      "threshold": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ap": 0.0971670558955796
+    },
+    {
+      "genre": "Psychological",
+      "support": 48,
+      "predicted_positive": 0,
+      "threshold": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ap": 0.1195991464042179
+    },
+    {
+      "genre": "Mystery",
+      "support": 57,
+      "predicted_positive": 0,
+      "threshold": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "ap": 0.1246767770249663
+    }
+  ],
+  "top_test_f1_optimized_threshold": [
+    {
+      "genre": "Hentai",
+      "support": 144,
+      "predicted_positive": 133,
+      "threshold": 0.2199999999999999,
+      "precision": 0.7443609022556391,
+      "recall": 0.6875,
+      "f1": 0.7148014440433214,
+      "ap": 0.8066182149586502
+    },
+    {
+      "genre": "Comedy",
+      "support": 485,
+      "predicted_positive": 722,
+      "threshold": 0.3999999999999999,
+      "precision": 0.5692520775623269,
+      "recall": 0.8474226804123711,
+      "f1": 0.6810273405136703,
+      "ap": 0.6872351189477057
+    },
+    {
+      "genre": "Action",
+      "support": 326,
+      "predicted_positive": 545,
+      "threshold": 0.18,
+      "precision": 0.4697247706422018,
+      "recall": 0.7852760736196319,
+      "f1": 0.5878300803673938,
+      "ap": 0.5933012521791398
+    },
+    {
+      "genre": "Slice of Life",
+      "support": 219,
+      "predicted_positive": 367,
+      "threshold": 0.2699999999999999,
+      "precision": 0.3623978201634877,
+      "recall": 0.6073059360730594,
+      "f1": 0.4539249146757679,
+      "ap": 0.4042642440982933
+    },
+    {
+      "genre": "Fantasy",
+      "support": 271,
+      "predicted_positive": 489,
+      "threshold": 0.1999999999999999,
+      "precision": 0.3312883435582822,
+      "recall": 0.5977859778597786,
+      "f1": 0.4263157894736842,
+      "ap": 0.3471633316529995
+    },
+    {
+      "genre": "Sci-Fi",
+      "support": 188,
+      "predicted_positive": 299,
+      "threshold": 0.19,
+      "precision": 0.3411371237458194,
+      "recall": 0.5425531914893617,
+      "f1": 0.4188911704312115,
+      "ap": 0.3636668506347259
+    }
+  ],
+  "threshold_stats": {
+    "min": 0.05,
+    "median": 0.19,
+    "max": 0.3999999999999999
+  }
+}

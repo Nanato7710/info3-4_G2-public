@@ -1,0 +1,19 @@
+{
+  "artifact_preparation_environment": {
+    "captured_at": "2026-07-27T02:52:54.666354+00:00",
+    "device_requested": null,
+    "image_cache": "/Users/kazusa/lectures/b3/first/info3dm_g2/final-report/data/images",
+    "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+    "purpose": "artifact preparation or execution environment",
+    "python": "3.13.13",
+    "pytorch": "2.12.1",
+    "timm": "1.0.27",
+    "torchvision": "0.27.1"
+  },
+  "purpose": "historical training environment",
+  "python": null,
+  "pytorch": null,
+  "timm": null,
+  "torchvision": null,
+  "unavailable_reason": "the saved run did not record package versions; current versions are stored separately as artifact_preparation_environment"
+}

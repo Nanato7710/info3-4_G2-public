@@ -1,0 +1,483 @@
+{
+  "checkpoint_selection": {
+    "early_stopping_min_delta": 0.001,
+    "metric": "mAP",
+    "split": "validation",
+    "test_used_for_selection": false
+  },
+  "created_at": "2026-07-27T02:56:54.008123+00:00",
+  "dirty_status": [
+    " M experiments/final-tri-model/criterion.py",
+    " M experiments/final-tri-model/run_exp.py",
+    " M experiments/final-tri-model/run_train.sbatch",
+    " D experiments/fix-final-tri-model/README.md",
+    " D experiments/fix-final-tri-model/analysis/analysis_summary.json",
+    " D experiments/fix-final-tri-model/analysis/genre_metrics_validation_threshold_0.5.csv",
+    " D experiments/fix-final-tri-model/analysis/learning_curves.png",
+    " D experiments/fix-final-tri-model/analysis/learning_curves.svg",
+    " D experiments/fix-final-tri-model/analysis/overall_model_metrics.csv",
+    " D experiments/fix-final-tri-model/analysis/seed_genre_metrics_validation_threshold_0.5.csv",
+    " D experiments/fix-final-tri-model/analysis/seed_overall_model_metrics.csv",
+    " D experiments/fix-final-tri-model/analyze.py",
+    " D experiments/fix-final-tri-model/config.yaml",
+    " D experiments/fix-final-tri-model/criterion.py",
+    " D experiments/fix-final-tri-model/evaluate.py",
+    " D experiments/fix-final-tri-model/make_report.py",
+    " D experiments/fix-final-tri-model/metrics.py",
+    " D experiments/fix-final-tri-model/model.py",
+    " D experiments/fix-final-tri-model/optimizer.py",
+    " D experiments/fix-final-tri-model/report.md",
+    " D experiments/fix-final-tri-model/run_exp.py",
+    " D experiments/fix-final-tri-model/run_train.sbatch",
+    " D experiments/fix-final-tri-model/train.py",
+    "?? docs/final-report/draft.md",
+    "?? docs/final-report/experiments/kazusa.md",
+    "?? docs/final-report/experiments/riku.md",
+    "?? docs/final-report/experiments/sho.md",
+    "?? docs/final-report/experiments/takato.md",
+    "?? docs/final-report/experiments/takuma.md",
+    "?? docs/final-report/s1-abstruct.md",
+    "?? docs/final-report/s2-introduction.md",
+    "?? docs/final-report/template.tex",
+    "?? outputs/artifact_common.py",
+    "?? outputs/baseline/config.yaml",
+    "?? outputs/baseline/criterion.py",
+    "?? outputs/baseline/evaluate.py",
+    "?? outputs/baseline/model.py",
+    "?? outputs/baseline/optimizer.py",
+    "?? outputs/baseline/run_exp.py",
+    "?? outputs/baseline/runs/seed_42/COMPLETED",
+    "?? outputs/baseline/runs/seed_42/environment.json",
+    "?? outputs/baseline/runs/seed_42/metrics.csv",
+    "?? outputs/baseline/runs/seed_42/resolved-config.yaml",
+    "?? outputs/baseline/runs/seed_42/run-metadata.json",
+    "?? outputs/baseline/runs/seed_42/test_metrics.json",
+    "?? outputs/baseline/runs/seed_42/test_predictions.npz",
+    "?? outputs/baseline/runs/seed_42/validation_metrics.json",
+    "?? outputs/baseline/runs/seed_42/validation_predictions.npz",
+    "?? outputs/baseline/runs/seed_43/COMPLETED",
+    "?? outputs/baseline/runs/seed_43/environment.json",
+    "?? outputs/baseline/runs/seed_43/metrics.csv",
+    "?? outputs/baseline/runs/seed_43/resolved-config.yaml",
+    "?? outputs/baseline/runs/seed_43/run-metadata.json",
+    "?? outputs/baseline/runs/seed_43/test_metrics.json",
+    "?? outputs/baseline/runs/seed_43/test_predictions.npz",
+    "?? outputs/baseline/runs/seed_43/validation_metrics.json",
+    "?? outputs/baseline/runs/seed_43/validation_predictions.npz",
+    "?? outputs/baseline/runs/seed_44/COMPLETED",
+    "?? outputs/baseline/runs/seed_44/environment.json",
+    "?? outputs/baseline/runs/seed_44/metrics.csv",
+    "?? outputs/baseline/runs/seed_44/resolved-config.yaml",
+    "?? outputs/baseline/runs/seed_44/run-metadata.json",
+    "?? outputs/baseline/runs/seed_44/test_metrics.json",
+    "?? outputs/baseline/runs/seed_44/test_predictions.npz",
+    "?? outputs/baseline/runs/seed_44/validation_metrics.json",
+    "?? outputs/baseline/runs/seed_44/validation_predictions.npz",
+    "?? outputs/baseline/train.py",
+    "?? outputs/evaluation/aggregate.py",
+    "?? outputs/evaluation/artifact-preparation-summary.json",
+    "?? outputs/evaluation/create_freeze_manifest.py",
+    "?? outputs/evaluation/evaluate.py",
+    "?? outputs/evaluation/prepare_artifacts.py",
+    "?? outputs/evaluation/results/genre-ap-per-seed.csv",
+    "?? outputs/evaluation/results/genre-ap-summary.csv",
+    "?? outputs/evaluation/results/model-differences.csv",
+    "?? outputs/evaluation/results/validation-per-seed.csv",
+    "?? outputs/evaluation/results/validation-summary.json",
+    "?? outputs/final-tri-model/config.yaml",
+    "?? outputs/final-tri-model/criterion.py",
+    "?? outputs/final-tri-model/evaluate.py",
+    "?? outputs/final-tri-model/model.py",
+    "?? outputs/final-tri-model/optimizer.py",
+    "?? outputs/final-tri-model/run_exp.py",
+    "?? outputs/final-tri-model/runs/seed_42/COMPLETED",
+    "?? outputs/final-tri-model/runs/seed_42/environment.json",
+    "?? outputs/final-tri-model/runs/seed_42/metrics.csv",
+    "?? outputs/final-tri-model/runs/seed_42/resolved-config.yaml",
+    "?? outputs/final-tri-model/runs/seed_42/run-metadata.json",
+    "?? outputs/final-tri-model/runs/seed_42/validation_metrics.json",
+    "?? outputs/final-tri-model/runs/seed_42/validation_predictions.npz",
+    "?? outputs/final-tri-model/runs/seed_43/COMPLETED",
+    "?? outputs/final-tri-model/runs/seed_43/environment.json",
+    "?? outputs/final-tri-model/runs/seed_43/metrics.csv",
+    "?? outputs/final-tri-model/runs/seed_43/resolved-config.yaml",
+    "?? outputs/final-tri-model/runs/seed_43/run-metadata.json",
+    "?? outputs/final-tri-model/runs/seed_43/validation_metrics.json",
+    "?? outputs/final-tri-model/runs/seed_43/validation_predictions.npz",
+    "?? outputs/final-tri-model/runs/seed_44/COMPLETED",
+    "?? outputs/final-tri-model/runs/seed_44/environment.json",
+    "?? outputs/final-tri-model/runs/seed_44/metrics.csv",
+    "?? outputs/final-tri-model/runs/seed_44/resolved-config.yaml",
+    "?? outputs/final-tri-model/runs/seed_44/run-metadata.json",
+    "?? outputs/final-tri-model/runs/seed_44/validation_metrics.json",
+    "?? outputs/final-tri-model/runs/seed_44/validation_predictions.npz",
+    "?? outputs/final-tri-model/train.py",
+    "?? outputs/freeze-manifest.json",
+    "?? outputs/run_train.sbatch",
+    "?? outputs/smoke/baseline/runs/seed_42.backup-20260727T025141Z/COMPLETED",
+    "?? outputs/smoke/baseline/runs/seed_42.backup-20260727T025141Z/environment.json",
+    "?? outputs/smoke/baseline/runs/seed_42.backup-20260727T025141Z/metrics.csv",
+    "?? outputs/smoke/baseline/runs/seed_42.backup-20260727T025141Z/resolved-config.yaml",
+    "?? outputs/smoke/baseline/runs/seed_42.backup-20260727T025141Z/run-metadata.json",
+    "?? outputs/smoke/baseline/runs/seed_42.backup-20260727T025141Z/validation_metrics.json",
+    "?? outputs/smoke/baseline/runs/seed_42.backup-20260727T025141Z/validation_predictions.npz",
+    "?? outputs/smoke/baseline/runs/seed_42/COMPLETED",
+    "?? outputs/smoke/baseline/runs/seed_42/environment.json",
+    "?? outputs/smoke/baseline/runs/seed_42/metrics.csv",
+    "?? outputs/smoke/baseline/runs/seed_42/resolved-config.yaml",
+    "?? outputs/smoke/baseline/runs/seed_42/run-metadata.json",
+    "?? outputs/smoke/baseline/runs/seed_42/validation_metrics.json",
+    "?? outputs/smoke/baseline/runs/seed_42/validation_predictions.npz",
+    "?? outputs/smoke/final-tri-model/runs/seed_42/COMPLETED",
+    "?? outputs/smoke/final-tri-model/runs/seed_42/environment.json",
+    "?? outputs/smoke/final-tri-model/runs/seed_42/metrics.csv",
+    "?? outputs/smoke/final-tri-model/runs/seed_42/resolved-config.yaml",
+    "?? outputs/smoke/final-tri-model/runs/seed_42/run-metadata.json",
+    "?? outputs/smoke/final-tri-model/runs/seed_42/validation_metrics.json",
+    "?? outputs/smoke/final-tri-model/runs/seed_42/validation_predictions.npz",
+    "?? playground/kazusa/plan/01-draft-gap-audit.md",
+    "?? playground/kazusa/plan/02-final-artifacts-and-evaluation.md",
+    "?? playground/kazusa/plan/03-bootstrap-validation.md",
+    "?? playground/kazusa/plan/04-inference-app.md",
+    "?? playground/kazusa/plan/05-report-and-release.md",
+    "?? playground/kazusa/plan/README.md",
+    "?? tmp.md"
+  ],
+  "dirty_status_sha256": "12c7682ef330f440778079ad0e673817e82e3ea47f30dde8025baebade44e3f2",
+  "dirty_worktree": true,
+  "frozen_inputs": [
+    {
+      "path": "data/series_split_outputs/test_data_grouped.csv",
+      "sha256": "4621504d8a7084f2c64b61e965e936af83daeec44c558bbd23a517813a8d8422",
+      "size_bytes": 159608
+    },
+    {
+      "path": "data/series_split_outputs/training_data_grouped.csv",
+      "sha256": "f50e4ecb16ac6f2e61942e7cac44e997718d9c9f1fc1e6fc2693171ca1139d59",
+      "size_bytes": 1270889
+    },
+    {
+      "path": "data/series_split_outputs/validation_data_grouped.csv",
+      "sha256": "87d0c5c3f240d6d3ff9c4b2c016d67ee8b078f9bd7021c64865bdb092af72026",
+      "size_bytes": 158990
+    },
+    {
+      "path": "outputs/artifact_common.py",
+      "sha256": "1d96664e25642b4884bdd198293570728dcba52327f86e0e2b999f6c45437597",
+      "size_bytes": 20300
+    },
+    {
+      "path": "outputs/baseline/config.yaml",
+      "sha256": "77543a41a6e2455430e35e9897fe14d0d1fc04820b45220ba36d043f575dd1d4",
+      "size_bytes": 375
+    },
+    {
+      "path": "outputs/baseline/criterion.py",
+      "sha256": "7bf11b473e6acd301653aef91f0222318387a207f0ef041f7ba9c09b13c6ecbb",
+      "size_bytes": 237
+    },
+    {
+      "path": "outputs/baseline/evaluate.py",
+      "sha256": "5c3bacd837363bc0bacaca814a89883aff2a9e0771d4b1c648e693eb37bcbcb1",
+      "size_bytes": 1079
+    },
+    {
+      "path": "outputs/baseline/model.py",
+      "sha256": "a7365b041f563c90bcb607f9bfad053a3e4b2c7271d2378b83698dfc46a8de43",
+      "size_bytes": 454
+    },
+    {
+      "path": "outputs/baseline/optimizer.py",
+      "sha256": "2cd3d38da29a19629cd9184e86e1604772b9556fbf0f3011cc8bc8ca39dcb6d8",
+      "size_bytes": 299
+    },
+    {
+      "path": "outputs/baseline/run_exp.py",
+      "sha256": "85b09949f66a410cac8d949cdb08b85a90e6828bfd97cc1d95e571251eb07151",
+      "size_bytes": 1306
+    },
+    {
+      "path": "outputs/baseline/runs/seed_42/best_model.pth",
+      "sha256": "5ee991b50be6430278180229daa63981ee64676f183199ca6eae0742bf3c693d",
+      "size_bytes": 44821515
+    },
+    {
+      "path": "outputs/baseline/runs/seed_42/metrics.csv",
+      "sha256": "2dd4d53a0adf9ef821517a499d4e783c5abeeee7611d2d4e3e872172886aa842",
+      "size_bytes": 2424
+    },
+    {
+      "path": "outputs/baseline/runs/seed_42/resolved-config.yaml",
+      "sha256": "4bc900c35fb7f6fca767b486853dc3e32c63d76ea0c44fceea2b2ad1c919d445",
+      "size_bytes": 385
+    },
+    {
+      "path": "outputs/baseline/runs/seed_42/run-metadata.json",
+      "sha256": "3dbb8027f597a5da093516313d3b4ac6dd2f04bdb82e08586bb353e752c8118e",
+      "size_bytes": 1402
+    },
+    {
+      "path": "outputs/baseline/runs/seed_42/validation_metrics.json",
+      "sha256": "1796f7ca3258b2c9f1c9b086c61ccfcbf1559a52ba3e3a0c6a258648b6e81b35",
+      "size_bytes": 2475
+    },
+    {
+      "path": "outputs/baseline/runs/seed_42/validation_predictions.npz",
+      "sha256": "9ce6f18b7b047ebc81a07caa82b2a4aee565b81c31d49db41f31f2c99e5ee762",
+      "size_bytes": 163641
+    },
+    {
+      "path": "outputs/baseline/runs/seed_43/best_model.pth",
+      "sha256": "cf5ac5109a2cb3f4197b976cfc5205e844de6eb6962dbce6d39ebc70fc7a5ff9",
+      "size_bytes": 44821515
+    },
+    {
+      "path": "outputs/baseline/runs/seed_43/metrics.csv",
+      "sha256": "6e6c1686c2ae40e988ffcb55eb5197cf00a4a91be83be3fe283e703b2c058968",
+      "size_bytes": 2792
+    },
+    {
+      "path": "outputs/baseline/runs/seed_43/resolved-config.yaml",
+      "sha256": "981fcb679c1d1f099c48e14773c64d91b4fdc322b2d89465c87075ad8384cab9",
+      "size_bytes": 385
+    },
+    {
+      "path": "outputs/baseline/runs/seed_43/run-metadata.json",
+      "sha256": "c92820e19225825703836614eb5a4a672a588be7016ea4ee09641d45ea48f036",
+      "size_bytes": 1404
+    },
+    {
+      "path": "outputs/baseline/runs/seed_43/validation_metrics.json",
+      "sha256": "fc9c18c1bc031243ae8a1f69d66204c60c84c116b91e5c9c98c8cacfb1f4c754",
+      "size_bytes": 2476
+    },
+    {
+      "path": "outputs/baseline/runs/seed_43/validation_predictions.npz",
+      "sha256": "3c4103f42d3865c30f162227796a2654c7d061de0d5d4f92ec051c2b685b82be",
+      "size_bytes": 165145
+    },
+    {
+      "path": "outputs/baseline/runs/seed_44/best_model.pth",
+      "sha256": "109e4c1f3cbca0b2f64df895f2f89daf34981180f127df937c78052151c9b166",
+      "size_bytes": 44821515
+    },
+    {
+      "path": "outputs/baseline/runs/seed_44/metrics.csv",
+      "sha256": "aa1fd5319e3487fb55fcf337791b5771f59ac76612f3eb075b39721c96f18167",
+      "size_bytes": 2915
+    },
+    {
+      "path": "outputs/baseline/runs/seed_44/resolved-config.yaml",
+      "sha256": "c2e0d520e0f1a76e170ebbc15728f923d78f35d4f753ca7d9c43d443e98008b2",
+      "size_bytes": 385
+    },
+    {
+      "path": "outputs/baseline/runs/seed_44/run-metadata.json",
+      "sha256": "6ded53b2f9d5d19cb3351a6a5bbc191cd7065880c984ea3a4a5cbc2e5ef90e68",
+      "size_bytes": 1403
+    },
+    {
+      "path": "outputs/baseline/runs/seed_44/validation_metrics.json",
+      "sha256": "8d7069f9494df38171d63d932ee48149e0277a0c1b527d37ca8745e31efcfb78",
+      "size_bytes": 2475
+    },
+    {
+      "path": "outputs/baseline/runs/seed_44/validation_predictions.npz",
+      "sha256": "97c89c7b7ff7dd113ec2771db2a2b1a51524a428073acb8332f4875faf7fc280",
+      "size_bytes": 165097
+    },
+    {
+      "path": "outputs/baseline/train.py",
+      "sha256": "6713658c9a7dfcf1ce3ca7d8926be42ddd901dbfd81e26b44e9f08cad130427f",
+      "size_bytes": 489
+    },
+    {
+      "path": "outputs/evaluation/aggregate.py",
+      "sha256": "f3b00227c56f1292f2ae860888664c1d09d819464e89f862303c39a58ccceb1e",
+      "size_bytes": 7258
+    },
+    {
+      "path": "outputs/evaluation/create_freeze_manifest.py",
+      "sha256": "3552adb8c07e7debefbeb4522902202355f339cfde7773f5fc988df1b6b69889",
+      "size_bytes": 3572
+    },
+    {
+      "path": "outputs/evaluation/evaluate.py",
+      "sha256": "24738ebe8661c9ea8e4806d4825eb5ebca12be7611d538d806ce619d1a8a8a59",
+      "size_bytes": 6200
+    },
+    {
+      "path": "outputs/evaluation/prepare_artifacts.py",
+      "sha256": "e56eb569c33bbaa2fec1306dd6319dcd3677ef7a208df1b60a5c0de4f209660e",
+      "size_bytes": 14105
+    },
+    {
+      "path": "outputs/evaluation/results/validation-per-seed.csv",
+      "sha256": "06c99aed48b1d1a2a6a2c94ba53bb3ae248447f31be00dbcc4c607653d2f02eb",
+      "size_bytes": 1470
+    },
+    {
+      "path": "outputs/evaluation/results/validation-summary.json",
+      "sha256": "2a826ff3f11c2f2f6f3c56716c6b0c12c53de25cd6a8660471b9c28ca7de5fc8",
+      "size_bytes": 3295
+    },
+    {
+      "path": "outputs/final-tri-model/config.yaml",
+      "sha256": "8ddc0c4e07d2206f27c28481d0c15f5db740d19503a471f6e7fa84d16e428779",
+      "size_bytes": 441
+    },
+    {
+      "path": "outputs/final-tri-model/criterion.py",
+      "sha256": "4538f76b37e0a77126be6b70844cfb98cca0c185a438a18ecd093ed381cdaa15",
+      "size_bytes": 1505
+    },
+    {
+      "path": "outputs/final-tri-model/evaluate.py",
+      "sha256": "5c3bacd837363bc0bacaca814a89883aff2a9e0771d4b1c648e693eb37bcbcb1",
+      "size_bytes": 1079
+    },
+    {
+      "path": "outputs/final-tri-model/model.py",
+      "sha256": "a4510fb0e3ad78c4ef765522969796272765dc206170ee4fa50fc4802ee2c000",
+      "size_bytes": 644
+    },
+    {
+      "path": "outputs/final-tri-model/optimizer.py",
+      "sha256": "6b25240c55d5e45780de2414193e11b9eb5b89a5c778db2445026052d60e77f1",
+      "size_bytes": 309
+    },
+    {
+      "path": "outputs/final-tri-model/run_exp.py",
+      "sha256": "c87569d0fa46b111962cc2100875899487c0b04dc924e39ad3f75e34930d7c21",
+      "size_bytes": 1316
+    },
+    {
+      "path": "outputs/final-tri-model/runs/seed_42/best_model.pth",
+      "sha256": "fe08e1515679b89445bd7806660bd1e687d5f5cc93d6b7669c0dc0abf9f64b9a",
+      "size_bytes": 350453737
+    },
+    {
+      "path": "outputs/final-tri-model/runs/seed_42/metrics.csv",
+      "sha256": "dfe348da8c3d44d46d496bf010062e8421217475a71f9aeb8ff2cc507b2b2f5f",
+      "size_bytes": 1805
+    },
+    {
+      "path": "outputs/final-tri-model/runs/seed_42/resolved-config.yaml",
+      "sha256": "be47b2f7d13aa58022ff0a0363d040cd9b913ebf6c00f6a88083b4e80d7ec225",
+      "size_bytes": 453
+    },
+    {
+      "path": "outputs/final-tri-model/runs/seed_42/run-metadata.json",
+      "sha256": "d3158d2bb9ea2d1e16412d24f64ce5493b1c2030c57a96c504f3fb0896dc1aea",
+      "size_bytes": 1416
+    },
+    {
+      "path": "outputs/final-tri-model/runs/seed_42/validation_metrics.json",
+      "sha256": "f4520fb468fb349463d0a09db42a2adab940802c862e2ef755c5169cc861ae4e",
+      "size_bytes": 2463
+    },
+    {
+      "path": "outputs/final-tri-model/runs/seed_42/validation_predictions.npz",
+      "sha256": "580811902782fb99ec407a902fcef01877d694833ffa735489cb7fa367231d51",
+      "size_bytes": 163542
+    },
+    {
+      "path": "outputs/final-tri-model/runs/seed_43/best_model.pth",
+      "sha256": "766f26e30fcd42109763bdb138b35396ae733f42de9a823cbd149681e196bbf5",
+      "size_bytes": 350453737
+    },
+    {
+      "path": "outputs/final-tri-model/runs/seed_43/metrics.csv",
+      "sha256": "251f3c7072bfa474fbd1ab80af4e831a48d12736f9cd494a149b74847b244917",
+      "size_bytes": 1682
+    },
+    {
+      "path": "outputs/final-tri-model/runs/seed_43/resolved-config.yaml",
+      "sha256": "deb7d0d267cb7be4c38301799b6a22aac271107e6a742fc9e34b84af2a32b967",
+      "size_bytes": 453
+    },
+    {
+      "path": "outputs/final-tri-model/runs/seed_43/run-metadata.json",
+      "sha256": "e408a73b17d82ee0dfea266c5bb8fb5ecee0222b6ef7bde638f1b242f0268f5c",
+      "size_bytes": 1417
+    },
+    {
+      "path": "outputs/final-tri-model/runs/seed_43/validation_metrics.json",
+      "sha256": "42b1b89e0a253aec08fabe3bf7dc1888dcf3901d7516018a612a16064c2c5d28",
+      "size_bytes": 2463
+    },
+    {
+      "path": "outputs/final-tri-model/runs/seed_43/validation_predictions.npz",
+      "sha256": "e360a398eb1c09721c8b957aea355019c4403a6ce91d41ac3c8b428c28c55bcd",
+      "size_bytes": 164030
+    },
+    {
+      "path": "outputs/final-tri-model/runs/seed_44/best_model.pth",
+      "sha256": "4f622353b3863ae561da5da02bc57361a73910abd691f70d446e813921eb06c2",
+      "size_bytes": 350453737
+    },
+    {
+      "path": "outputs/final-tri-model/runs/seed_44/metrics.csv",
+      "sha256": "f57b47ef33635ddad26ddc6637bca8efaf52a1e77c5d1485feeb63e321340db5",
+      "size_bytes": 1681
+    },
+    {
+      "path": "outputs/final-tri-model/runs/seed_44/resolved-config.yaml",
+      "sha256": "15b16722dac8ebbbaf98a587ff8abe0228016c0f8f0db0be2270b89619233318",
+      "size_bytes": 453
+    },
+    {
+      "path": "outputs/final-tri-model/runs/seed_44/run-metadata.json",
+      "sha256": "7baaf4e233656abf300193de0efcae77227d1089e18bbdcf623376006c3efff6",
+      "size_bytes": 1416
+    },
+    {
+      "path": "outputs/final-tri-model/runs/seed_44/validation_metrics.json",
+      "sha256": "7243395f7522c6bd2447574af24db0abbce48afb02637af88333ddc9a90e024f",
+      "size_bytes": 2469
+    },
+    {
+      "path": "outputs/final-tri-model/runs/seed_44/validation_predictions.npz",
+      "sha256": "d87c0e4c042d1404f8f24005d5ae15409a00402821ed8702c576ebc02c27bcb1",
+      "size_bytes": 163867
+    },
+    {
+      "path": "outputs/final-tri-model/train.py",
+      "sha256": "6713658c9a7dfcf1ce3ca7d8926be42ddd901dbfd81e26b44e9f08cad130427f",
+      "size_bytes": 489
+    },
+    {
+      "path": "outputs/run_train.sbatch",
+      "sha256": "6d507c4512624397b3da286161573f443c48c83141e794f9a0a7f4dc9f077fb4",
+      "size_bytes": 747
+    }
+  ],
+  "genre_names": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Ecchi",
+    "Fantasy",
+    "Hentai",
+    "Horror",
+    "Mahou Shoujo",
+    "Mecha",
+    "Music",
+    "Mystery",
+    "Psychological",
+    "Romance",
+    "Sci-Fi",
+    "Slice of Life",
+    "Sports",
+    "Supernatural",
+    "Thriller"
+  ],
+  "git_commit": "1626c8a8e68e66e18237a18f018dc600b905f246",
+  "schema_version": 1,
+  "supersedes": {
+    "reason": "frozen evaluation code changed; previous manifest is invalid",
+    "sha256": "385dd47cf0946a8b5f912d885504ed8e91f50d980ea83ddb57d42980ff1d264e"
+  },
+  "threshold": 0.5
+}

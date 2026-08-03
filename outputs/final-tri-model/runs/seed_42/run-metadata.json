@@ -1,0 +1,39 @@
+{
+  "best_epoch": 4,
+  "best_validation_mAP": 0.4656008227624861,
+  "checkpoint_sha256": "fe08e1515679b89445bd7806660bd1e687d5f5cc93d6b7669c0dc0abf9f64b9a",
+  "code_snapshot": {
+    "correspondence_evidence": [
+      "checkpoint loads strictly into the submitted model",
+      "submitted config matches the saved experiment config",
+      "saved validation predictions match exactly one history epoch"
+    ],
+    "limitation": "the exact historical Git commit was not recorded",
+    "path": "outputs/final-tri-model",
+    "sha256": "e04ac608a897cf11583bd959276bfeb9c4fc24c74f54476ca1a2c34c13325adc"
+  },
+  "dirty_worktree": null,
+  "duration_seconds": null,
+  "early_stopping": {
+    "min_delta": 0.001,
+    "mode": "max",
+    "monitor": "mAP",
+    "stop_reason": "saved history ended before configured epochs after patience was exhausted",
+    "stopped_early": true
+  },
+  "ended_at": null,
+  "git_commit": null,
+  "historical_git_reason": "not recorded by the historical training run",
+  "model_id": "final-tri-model",
+  "resolved_config_sha256": "be47b2f7d13aa58022ff0a0363d040cd9b913ebf6c00f6a88083b4e80d7ec225",
+  "seed": 42,
+  "started_at": null,
+  "unavailable_timing_reason": "the saved run did not record wall-clock timestamps",
+  "versions": {
+    "python": null,
+    "pytorch": null,
+    "timm": null,
+    "torchvision": null,
+    "unavailable_reason": "not recorded by the historical training run"
+  }
+}

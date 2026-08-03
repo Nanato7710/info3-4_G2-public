@@ -1,0 +1,4 @@
+macro_f1,samples_f1,hamming_loss,mAP,predicted_labels_per_item,seed,split,method,run_dir
+0.32711696203715707,0.438211973289635,0.2470069017324757,0.3172110138557305,5.951828724353256,42,validation,model_threshold_0.5,experiments/takuma-asl_gradual_unfreeze/outputs/seed_42
+0.3347541406055833,0.43848187081382234,0.2430630546035025,0.3199766013722271,5.828724353256021,43,validation,model_threshold_0.5,experiments/takuma-asl_gradual_unfreeze/outputs/seed_43
+0.33403954622732784,0.4398254486122461,0.2499647870792056,0.3181063048460772,6.024085637823372,44,validation,model_threshold_0.5,experiments/takuma-asl_gradual_unfreeze/outputs/seed_44

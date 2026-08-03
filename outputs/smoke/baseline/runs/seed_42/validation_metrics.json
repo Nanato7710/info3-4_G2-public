@@ -1,0 +1,9 @@
+{
+  "genre_count": 19,
+  "hamming_loss": 0.47368421052631576,
+  "mAP": 0.7,
+  "macro_f1": 0.03508771929824561,
+  "row_count": 2,
+  "samples_f1": 0.1,
+  "threshold": 0.5
+}

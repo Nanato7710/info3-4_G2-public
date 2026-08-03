@@ -1,0 +1,100 @@
+{
+  "source_dir": "data/series_split_outputs",
+  "output_dir": "playground/kazusa/series_split/analysis",
+  "rows": 11199,
+  "unique_ids": 11199,
+  "series_groups": 6447,
+  "multi_item_series_groups": 1748,
+  "max_series_group_size": 67,
+  "split_overlap": {
+    "train_validation": 0,
+    "train_test": 0,
+    "validation_test": 0
+  },
+  "image_summary": {
+    "expected_images": 11199,
+    "existing_images": 11199,
+    "missing_images": 0,
+    "readable_images": 11199,
+    "unreadable_images": 0,
+    "min_width": 147,
+    "median_width": 460.0,
+    "max_width": 460,
+    "min_height": 99,
+    "median_height": 640.0,
+    "max_height": 821,
+    "format_counts": {
+      "JPEG": 11199
+    },
+    "mode_counts": {
+      "RGB": 11199
+    }
+  },
+  "legacy_split_pair_leakage": [
+    {
+      "left_split": "train",
+      "right_split": "validation",
+      "overlapping_series_groups": 502,
+      "left_rows_in_overlapping_groups": 1961,
+      "right_rows_in_overlapping_groups": 624,
+      "total_rows_in_overlapping_groups": 2585
+    },
+    {
+      "left_split": "train",
+      "right_split": "test",
+      "overlapping_series_groups": 468,
+      "left_rows_in_overlapping_groups": 2020,
+      "right_rows_in_overlapping_groups": 588,
+      "total_rows_in_overlapping_groups": 2608
+    },
+    {
+      "left_split": "validation",
+      "right_split": "test",
+      "overlapping_series_groups": 169,
+      "left_rows_in_overlapping_groups": 252,
+      "right_rows_in_overlapping_groups": 247,
+      "total_rows_in_overlapping_groups": 499
+    }
+  ],
+  "legacy_split_leakage_summary": [
+    {
+      "split": "train",
+      "rows": 8924,
+      "series_groups": 5456,
+      "rows_in_any_leaked_group": 2872
+    },
+    {
+      "split": "validation",
+      "rows": 1116,
+      "series_groups": 986,
+      "rows_in_any_leaked_group": 652
+    },
+    {
+      "split": "test",
+      "rows": 1116,
+      "series_groups": 979,
+      "rows_in_any_leaked_group": 617
+    }
+  ],
+  "outputs": [
+    "dataset_analysis_summary.json",
+    "genre_counts_by_split.png",
+    "genre_counts_by_split.svg",
+    "genre_distribution_from_data_outputs.csv",
+    "genre_split_ratio_delta_heatmap.png",
+    "genre_split_ratio_delta_heatmap.svg",
+    "image_dimensions_scatter.png",
+    "image_dimensions_scatter.svg",
+    "image_file_check.csv",
+    "label_count_distribution.csv",
+    "label_count_distribution.png",
+    "label_count_distribution.svg",
+    "legacy_split_leakage_examples.csv",
+    "legacy_split_leakage_summary.csv",
+    "legacy_split_pair_leakage.csv",
+    "relation_type_distribution.csv",
+    "series_group_size_distribution.csv",
+    "series_group_size_distribution.png",
+    "series_group_size_distribution.svg"
+  ]
+}

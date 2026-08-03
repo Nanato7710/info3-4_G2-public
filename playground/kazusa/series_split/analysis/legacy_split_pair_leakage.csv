@@ -1,0 +1,4 @@
+left_split,right_split,overlapping_series_groups,left_rows_in_overlapping_groups,right_rows_in_overlapping_groups,total_rows_in_overlapping_groups
+train,validation,502,1961,624,2585
+train,test,468,2020,588,2608
+validation,test,169,252,247,499

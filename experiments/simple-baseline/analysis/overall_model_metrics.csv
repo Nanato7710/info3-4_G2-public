@@ -1,0 +1,2 @@
+split,method,macro_f1,samples_f1,hamming_loss,mAP,predicted_labels_per_item
+validation,train_prevalence,0.0,0.0,0.1269073665430302,0.1269073665430302,0.0

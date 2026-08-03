@@ -1,0 +1,4 @@
+macro_f1,samples_f1,hamming_loss,mAP,predicted_labels_per_item,seed,split,method,run_dir
+0.42766612874117504,0.5522605207261765,0.13667308324334476,0.44555079236852396,3.207850133809099,42,validation,model_threshold_0.5,experiments/kazusa-baseline/outputs/seed_42
+0.411297341157359,0.5460298894286405,0.1362035776327527,0.43404773469346286,3.0669045495093665,43,validation,model_threshold_0.5,experiments/kazusa-baseline/outputs/seed_43
+0.42717309349272925,0.5530378482653238,0.13934926522371943,0.43801568129745116,3.272970561998216,44,validation,model_threshold_0.5,experiments/kazusa-baseline/outputs/seed_44

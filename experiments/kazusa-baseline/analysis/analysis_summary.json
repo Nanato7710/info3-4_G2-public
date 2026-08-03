@@ -1,0 +1,293 @@
+{
+  "device": "cuda",
+  "inference_config": {
+    "image_size": 640,
+    "batch_size": 32,
+    "num_workers": 2
+  },
+  "evaluation_policy": "Experiment iteration uses validation only. Do not use the test split until final model selection.",
+  "primary_comparison_split": "validation",
+  "primary_metric": "mAP",
+  "standard_method": "model_threshold_0.5",
+  "threshold_policy": "Threshold optimization is intentionally not performed in this experiment-iteration analysis because the primary metric is threshold-independent mAP.",
+  "run_dirs": [
+    "experiments/kazusa-baseline/outputs/seed_42",
+    "experiments/kazusa-baseline/outputs/seed_43",
+    "experiments/kazusa-baseline/outputs/seed_44"
+  ],
+  "seed_training_summary": [
+    {
+      "seed": 42,
+      "output_dir": "experiments/kazusa-baseline/outputs/seed_42",
+      "best_epoch": 113,
+      "best_monitor": "mAP",
+      "best_monitor_value": 0.4457245002680084,
+      "epochs_ran": 123,
+      "stopped_early": true
+    },
+    {
+      "seed": 43,
+      "output_dir": "experiments/kazusa-baseline/outputs/seed_43",
+      "best_epoch": 123,
+      "best_monitor": "mAP",
+      "best_monitor_value": 0.4341146197885799,
+      "epochs_ran": 133,
+      "stopped_early": true
+    },
+    {
+      "seed": 44,
+      "output_dir": "experiments/kazusa-baseline/outputs/seed_44",
+      "best_epoch": 117,
+      "best_monitor": "mAP",
+      "best_monitor_value": 0.438026715829221,
+      "epochs_ran": 127,
+      "stopped_early": true
+    }
+  ],
+  "outputs": [
+    "analysis_summary.json",
+    "genre_metrics_validation_threshold_0.5.csv",
+    "learning_curves.png",
+    "learning_curves.svg",
+    "overall_model_metrics.csv",
+    "seed_genre_metrics_validation_threshold_0.5.csv",
+    "seed_overall_model_metrics.csv"
+  ],
+  "model_metrics": [
+    {
+      "split": "validation",
+      "method": "model_threshold_0.5",
+      "macro_f1": 0.4220455211304211,
+      "macro_f1_std": 0.009311460706519274,
+      "samples_f1": 0.5504427528067136,
+      "samples_f1_std": 0.0038413645909927776,
+      "hamming_loss": 0.1374086420332723,
+      "hamming_loss_std": 0.0016969450948897142,
+      "mAP": 0.43920473611981264,
+      "mAP_std": 0.005842984896170909,
+      "predicted_labels_per_item": 3.1825750817722267,
+      "predicted_labels_per_item_std": 0.10533243359651191
+    }
+  ],
+  "seed_model_metrics": [
+    {
+      "macro_f1": 0.42766612874117504,
+      "samples_f1": 0.5522605207261765,
+      "hamming_loss": 0.13667308324334476,
+      "mAP": 0.44555079236852396,
+      "predicted_labels_per_item": 3.207850133809099,
+      "seed": 42,
+      "split": "validation",
+      "method": "model_threshold_0.5",
+      "run_dir": "experiments/kazusa-baseline/outputs/seed_42"
+    },
+    {
+      "macro_f1": 0.411297341157359,
+      "samples_f1": 0.5460298894286405,
+      "hamming_loss": 0.1362035776327527,
+      "mAP": 0.43404773469346286,
+      "predicted_labels_per_item": 3.0669045495093665,
+      "seed": 43,
+      "split": "validation",
+      "method": "model_threshold_0.5",
+      "run_dir": "experiments/kazusa-baseline/outputs/seed_43"
+    },
+    {
+      "macro_f1": 0.42717309349272925,
+      "samples_f1": 0.5530378482653238,
+      "hamming_loss": 0.13934926522371943,
+      "mAP": 0.43801568129745116,
+      "predicted_labels_per_item": 3.272970561998216,
+      "seed": 44,
+      "split": "validation",
+      "method": "model_threshold_0.5",
+      "run_dir": "experiments/kazusa-baseline/outputs/seed_44"
+    }
+  ],
+  "worst_validation_f1_genres_threshold_0.5": [
+    {
+      "genre": "Thriller",
+      "support": 18.0,
+      "predicted_positive": 4.333333333333333,
+      "threshold": 0.5,
+      "precision": 0.0,
+      "precision_std": 0.0,
+      "recall": 0.0,
+      "recall_std": 0.0,
+      "f1": 0.0,
+      "f1_std": 0.0,
+      "ap": 0.03319833607648531,
+      "ap_std": 0.006413288675340573
+    },
+    {
+      "genre": "Psychological",
+      "support": 54.0,
+      "predicted_positive": 20.333333333333332,
+      "threshold": 0.5,
+      "precision": 0.2306878306878307,
+      "precision_std": 0.041401905099448966,
+      "recall": 0.08641975308641975,
+      "recall_std": 0.028287504289850864,
+      "f1": 0.12406229134755116,
+      "f1_std": 0.03234986584887711,
+      "ap": 0.14400008274166212,
+      "ap_std": 0.011693824461994719
+    },
+    {
+      "genre": "Horror",
+      "support": 39.0,
+      "predicted_positive": 17.0,
+      "threshold": 0.5,
+      "precision": 0.27485380116959063,
+      "precision_std": 0.131164063259397,
+      "recall": 0.1111111111111111,
+      "recall_std": 0.029607706112288492,
+      "f1": 0.1563394108861156,
+      "f1_std": 0.04769507327892265,
+      "ap": 0.1658610623683391,
+      "ap_std": 0.015415840229772961
+    },
+    {
+      "genre": "Mahou Shoujo",
+      "support": 22.0,
+      "predicted_positive": 34.333333333333336,
+      "threshold": 0.5,
+      "precision": 0.14523809523809525,
+      "precision_std": 0.047797285475916024,
+      "recall": 0.21212121212121213,
+      "recall_std": 0.052486388108147784,
+      "f1": 0.1681982995748937,
+      "f1_std": 0.037598395557647074,
+      "ap": 0.14060612989865942,
+      "ap_std": 0.005117203481222131
+    },
+    {
+      "genre": "Mystery",
+      "support": 70.0,
+      "predicted_positive": 71.0,
+      "threshold": 0.5,
+      "precision": 0.18392292043399638,
+      "precision_std": 0.016879310797568395,
+      "recall": 0.18571428571428572,
+      "recall_std": 0.01428571428571429,
+      "f1": 0.1844592950873628,
+      "f1_std": 0.011691194491569967,
+      "ap": 0.16508175325833171,
+      "ap_std": 0.012585746335477497
+    },
+    {
+      "genre": "Supernatural",
+      "support": 133.0,
+      "predicted_positive": 125.0,
+      "threshold": 0.5,
+      "precision": 0.3032759633001563,
+      "precision_std": 0.029514401647204085,
+      "recall": 0.2857142857142857,
+      "recall_std": 0.045735056618783604,
+      "f1": 0.2937228499123226,
+      "f1_std": 0.03655901799975373,
+      "ap": 0.26321086660698995,
+      "ap_std": 0.010593538955801734
+    },
+    {
+      "genre": "Ecchi",
+      "support": 80.0,
+      "predicted_positive": 57.333333333333336,
+      "threshold": 0.5,
+      "precision": 0.38660801564027364,
+      "precision_std": 0.02273121398677124,
+      "recall": 0.27499999999999997,
+      "recall_std": 0.04330127018922192,
+      "f1": 0.31903929098230566,
+      "f1_std": 0.025296814649818464,
+      "ap": 0.31841902533564553,
+      "ap_std": 0.01961512531779934
+    },
+    {
+      "genre": "Drama",
+      "support": 222.0,
+      "predicted_positive": 332.0,
+      "threshold": 0.5,
+      "precision": 0.3595534688297808,
+      "precision_std": 0.028841446579563838,
+      "recall": 0.5315315315315315,
+      "recall_std": 0.11806614794667708,
+      "f1": 0.42353062700759475,
+      "f1_std": 0.036011904030006855,
+      "ap": 0.3973840616645142,
+      "ap_std": 0.017215496317827775
+    }
+  ],
+  "best_validation_ap_genres_threshold_0.5": [
+    {
+      "genre": "Hentai",
+      "support": 137.0,
+      "predicted_positive": 185.33333333333334,
+      "threshold": 0.5,
+      "precision": 0.7093331256578357,
+      "precision_std": 0.02702825801397224,
+      "recall": 0.9586374695863746,
+      "recall_std": 0.00421423554153011,
+      "f1": 0.8151446989896861,
+      "f1_std": 0.017215878465942965,
+      "ap": 0.9352798705645302,
+      "ap_std": 0.004731797963382028
+    },
+    {
+      "genre": "Comedy",
+      "support": 487.0,
+      "predicted_positive": 745.0,
+      "threshold": 0.5,
+      "precision": 0.5755067651268525,
+      "precision_std": 0.0066033913350802016,
+      "recall": 0.8802190280629706,
+      "recall_std": 0.0133601788473259,
+      "f1": 0.6958938386428498,
+      "f1_std": 0.0011077377393098908,
+      "ap": 0.7479418989804039,
+      "ap_std": 0.007799761056776299
+    },
+    {
+      "genre": "Sports",
+      "support": 61.0,
+      "predicted_positive": 50.666666666666664,
+      "threshold": 0.5,
+      "precision": 0.7846243042671613,
+      "precision_std": 0.034920483092866064,
+      "recall": 0.6502732240437159,
+      "recall_std": 0.018929517022610635,
+      "f1": 0.7105279303634254,
+      "f1_std": 0.00452441259311707,
+      "ap": 0.7176946799912365,
+      "ap_std": 0.0027720111871409863
+    },
+    {
+      "genre": "Mecha",
+      "support": 49.0,
+      "predicted_positive": 79.66666666666667,
+      "threshold": 0.5,
+      "precision": 0.46972819154155626,
+      "precision_std": 0.02623938679390119,
+      "recall": 0.7619047619047619,
+      "recall_std": 0.03117398431942747,
+      "f1": 0.5806345980126467,
+      "f1_std": 0.019718832457536528,
+      "ap": 0.6876462007788513,
+      "ap_std": 0.03087616388125974
+    },
+    {
+      "genre": "Action",
+      "support": 305.0,
+      "predicted_positive": 445.6666666666667,
+      "threshold": 0.5,
+      "precision": 0.5314972992061958,
+      "precision_std": 0.01618396519637625,
+      "recall": 0.7759562841530054,
+      "recall_std": 0.02482582883409954,
+      "f1": 0.6306031812221804,
+      "f1_std": 0.011699275381081573,
+      "ap": 0.6503559253610264,
+      "ap_std": 0.006228545145032075
+    }
+  ]
+}

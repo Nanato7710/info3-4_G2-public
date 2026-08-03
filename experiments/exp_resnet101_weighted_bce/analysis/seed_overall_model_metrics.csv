@@ -1,0 +1,4 @@
+macro_f1,samples_f1,hamming_loss,mAP,predicted_labels_per_item,seed,split,method,run_dir
+0.3923471519284244,0.5072463516263694,0.13033475750035212,0.3859289198869458,2.4950936663693133,42,validation,model_threshold_0.5,experiments/exp_resnet101_weighted_bce/outputs/seed_42
+0.4021277710705654,0.505182205048396,0.13549931921686464,0.40031770784106024,2.6752899197145408,43,validation,model_threshold_0.5,experiments/exp_resnet101_weighted_bce/outputs/seed_43
+0.39972445421531777,0.507694476204735,0.13291703835860838,0.3952381372476453,2.629794826048171,44,validation,model_threshold_0.5,experiments/exp_resnet101_weighted_bce/outputs/seed_44

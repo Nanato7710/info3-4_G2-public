@@ -1,0 +1,4 @@
+seed,output_dir,best_epoch,best_monitor,best_monitor_value,epochs_ran,stopped_early
+42,experiments/sho-huber-prep/outputs_d020/seed_42,17,mAP,0.25679580508017474,37,True
+43,experiments/sho-huber-prep/outputs_d020/seed_43,23,mAP,0.25806852934706315,43,True
+44,experiments/sho-huber-prep/outputs_d020/seed_44,13,mAP,0.25929044661928635,33,True

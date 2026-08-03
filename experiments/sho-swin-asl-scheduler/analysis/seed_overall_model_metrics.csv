@@ -1,0 +1,4 @@
+macro_f1,samples_f1,hamming_loss,mAP,predicted_labels_per_item,seed,split,method,run_dir
+0.3829386979015263,0.5142862885949415,0.14794121789755388,0.3700336888394961,3.256021409455843,42,validation,model_threshold_0.5,experiments/sho-swin-asl-scheduler/outputs/seed_42
+0.3680520327432524,0.5196227946896992,0.1451711347950608,0.37132484320179365,3.1480820695807314,43,validation,model_threshold_0.5,experiments/sho-swin-asl-scheduler/outputs/seed_43
+0.38199644885435957,0.5175860961320372,0.15273017512559275,0.3649119224181358,3.407671721677074,44,validation,model_threshold_0.5,experiments/sho-swin-asl-scheduler/outputs/seed_44
